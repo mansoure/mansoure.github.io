@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Essam Mansour
+title: About
 ---
 ![emansour](/images/essam2.jpg)
 
