@@ -3,7 +3,7 @@ layout: default
 title: Publication
 ---
 
-A complete list of my publications is available at [DBLP](http://dblp.uni-trier.de/pers/hd/m/Mansour:Essam) [CSB](http://liinwww.ira.uka.de/csbib?query=%2Bau:MansourE*+%2Bau:Mansour&maxnum=200&sort=year) [Google Scholar](https://scholar.google.com/citations?user=dqgckDgAAAAJ&hl=en)
+A complete list of my publications is available at [DBLP](http://dblp.uni-trier.de/pers/hd/m/Mansour:Essam) -  [CSB](http://liinwww.ira.uka.de/csbib?query=%2Bau:MansourE*+%2Bau:Mansour&maxnum=200&sort=year) - [Google Scholar](https://scholar.google.com/citations?user=dqgckDgAAAAJ&hl=en)
 
 ## Selected Publication 
 
