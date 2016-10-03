@@ -3,7 +3,9 @@ layout: default
 title: Publication
 ---
 
-# Selected Publication 
+A complete list of my publications is available at [DBLP](http://dblp.uni-trier.de/pers/hd/m/Mansour:Essam) [CSB](http://liinwww.ira.uka.de/csbib?query=%2Bau:MansourE*+%2Bau:Mansour&maxnum=200&sort=year) [Google Scholar](https://scholar.google.com/citations?user=dqgckDgAAAAJ&hl=en)
+
+## Selected Publication 
 
 - Essam Mansour, Andrei Vlad Sambra, Sandro Hawke, Maged Zereba, Sarven Capadisli, Abdurrahman Ghanem, Ashraf Aboulnaga, Tim Berners-Lee: [A Demonstration of the Solid Platform for Social Web Applications](http://dl.acm.org/citation.cfm?doid=2872518.2890529). WWW: 223-226, 2016. [PDF](/people/emansour/paper/www16-solid-essam.pdf)
 
