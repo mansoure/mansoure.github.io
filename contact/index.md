@@ -6,7 +6,9 @@ title: Contact
 # Contact
 
 Email: emansour AT qf.org.qa
+
 Twitter: [@DrEssam_Mansour](https://twitter.com/DrEssam_Mansour)
+
 GitHub: [mansoure](https://github.com/mansoure/)
 
 
