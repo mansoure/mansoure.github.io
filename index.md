@@ -14,7 +14,7 @@ I am a Senior Research Software Engineer at Qatar Computing Research Institute (
 
 
 ## Academic Service
-I am Programme Committee member of:
+I am a Programme Committee member of:
 
 - [VLDB 2017](http://www.vldb.org/2017/review_board.php)
 - [SIGMOD 2016](http://www.sigmod2016.org/org_sigmod_pc.shtml)
