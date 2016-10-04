@@ -5,15 +5,6 @@ title: Contact
 
 # Contact
 
-## Accounts
-
-Email: emansour AT qf.org.qa
-
-GitHub: [mansoure](https://github.com/mansoure/)
-
-
-## Postal Address
-
 Qatar Computing Research Institute
 
 Hamad Bin Khalifa University
