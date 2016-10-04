@@ -8,9 +8,9 @@ I am a Senior Research Software Engineer at Qatar Computing Research Institute (
 
 ## Recent and Current Research Projects 
 
-- Lotus: query processing over decentralized RDF graphs
-- E-Store: an elastic in-memory OLTP system
-- StarDB: a string database system for large-scale analytics
+- Collaborative Data Sharing over Decentralized RDF Graphs
+- An Elastic in-memory OLTP System
+- Large-scale Analytics on Strings
 
 
 ## Academic Service
