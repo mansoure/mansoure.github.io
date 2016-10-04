@@ -9,7 +9,7 @@ title: Research Projects
 
 The project aims to radically change the way Web applications work today, resulting in true data ownership as well as improved privacy. Crosscloud provides decentralization and data independence for the social Web. At that level, the interoperability between diverse implementations is key. In addition,  we are experimenting with different architectures for client side and server-side software stacks, and different storage and query architectures. However, the priority of the work is to design the protocols. 
 
-![crosscloud](/research/solid_arch.png)
+![crosscloud](research/solid_arch.png)
 
 Crosscloud Architecture. The user controls his/her identity using an RDF profile document, often stored on a pod server. The user loads an  application from an application provider. The application obtains the user's pod from the identity profile. It then follows links from the profile to discover data on the user's pod, as well as on other pods, performing authentication when needed.
 
