@@ -1,0 +1,13 @@
+.entry-content {
+    font-size: 17px;
+    line-height: 160%;
+}
+
+p.img-rounded>img {
+    margin: 10px;
+    border-radius: 5px;
+}
+
+ul.list-group {
+    font-size: 15px;
+}
