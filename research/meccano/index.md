@@ -4,7 +4,7 @@ title: Research Projects
 permalink: /research/meccano/
 ---
 
-# Collaborative Data Sharing over Decentralized RDF Graphs
+# Collaborative Data Sharing over Decentralized Graphs
 
 The project aims to radically change the way Web applications work today, resulting in true data ownership as well as improved privacy. Crosscloud provides decentralization and data independence for the social Web. At that level, the interoperability between diverse implementations is key. In addition,  we are experimenting with different architectures for client side and server-side software stacks, and different storage and query architectures. However, the priority of the work is to design the protocols. 
 
