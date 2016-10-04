@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research Projects
-permalink: /research/meccano/
+permalink: /research/starDB/
 ---
 
 # StarDB: a string database system for large-scale analytics
