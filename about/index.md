@@ -2,6 +2,12 @@
 layout: default
 title: About
 ---
+
+Dr. Essam Mansour received his Ph.D. in Computer Science on 2008 from the [Dublin Institute of Technology (DIT)](http://www.dit.ie/), Ireland. 
+He graduated from [Cairo University](http://www.fci.cu.edu.eg/), Egypt in 2000 with a First Class Honours in Information Systems, and in 2003 with a M.Sc. in Information Systems. 
+He was a Research and Teaching Fellow in [International University in Germany Bruchsal](http://i-u.de/) from July, 2008 to Oct, 2009, and in [King Abdullah University of Science and Technology (KAUST)](https://www.kaust.edu.sa/en) from Oct, 2009 to Jun, 2013. 
+Dr. Mansour joined [Qatar Computing Research Institute (QCRI)](http://qcri.com/) as a Senior Research Software Engineer in June, 2013. QCRI is part of [Hamad Bin Khalifa University](http://www.hbku.edu.qa/). 
+
 # QCRI
 Dr. Essam Mansour has been a Senior Software Engineer at Qatar Computing Research Institute (QCRI) since June 2013. Dr. Mansour is a member of the QCRI Distributed Systems group. He is working on the [Crosscloud project](/projects/crosscloud) for re-decentralizing the web and leading the development of a collaborative data management system based on RDF graphs. The Crosscloud project is a collaboration with [Prof. Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) at MIT. Dr. Mansour is also leading a research project for advanced query processing over decentralized RDF graphs with [Prof. Panos Kalnis](http://web.kaust.edu.sa/faculty/PanosKalnis/) at KAUST. He worked in the [e-store](http://dl.acm.org/citation.cfm?id=2735514) project, an elastic in-memory OLTP system applied to [H-Store](http://hstore.cs.brown.edu/). This project was a collaboration with [Prof. Michael Stonebraker](https://en.wikipedia.org/wiki/Michael_Stonebraker) at MIT.
 
@@ -11,15 +17,5 @@ Dr. Mansour has developed different parallel string algorithms, such as maximal 
 
 Dr. Mansour delivered a complete course in Cloud Computing at KAUST. Additionally, he offered different lectures on advanced data management for KAUST students.
 
-# Education
 
-- PhD, Dublin Institute of Technology (DIT), Ireland, 2008
-- MSc, Cairo University, Egypt, 2003
-- BSc, Cairo University, Egypt, 2000
-
-# Professional Experience
-
-- Qatar Computing Research Institute (QCRI), Senior Research Software Engineer June, 2013 - Now
-- King Abdullah University of Science and Technology (KAUST), Research Fellow Oct, 2009 – Jun, 2013
-- International University in Germany, Research Associate, Jul 2008 - Oct 2009
 
