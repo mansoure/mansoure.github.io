@@ -9,7 +9,7 @@ A complete list of my publications is available at [DBLP](http://dblp.uni-trier.
 
 ## Selected Publication 
 
-- Essam Mansour, Andrei Vlad Sambra, Sandro Hawke, Maged Zereba, Sarven Capadisli, Abdurrahman Ghanem, Ashraf Aboulnaga, Tim Berners-Lee: [A Demonstration of the Solid Platform for Social Web Applications](http://dl.acm.org/citation.cfm?doid=2872518.2890529). WWW: 223-226, 2016. [PDF](/people/emansour/paper/www16-solid-essam.pdf)
+- Essam Mansour, Andrei Vlad Sambra, Sandro Hawke, Maged Zereba, Sarven Capadisli, Abdurrahman Ghanem, Ashraf Aboulnaga, Tim Berners-Lee: [A Demonstration of the Solid Platform for Social Web Applications](http://dl.acm.org/citation.cfm?doid=2872518.2890529). WWW: 223-226, 2016. [PDF](/publications/paper/www16-solid-essam.pdf)
 
 - Majed Sahli, Essam Mansour, Panos Kalnis: [StarDB: A Large-Scale DBMS for Strings](http://dl.acm.org/citation.cfm?id=2824082&CFID=605881404&CFTOKEN=68506341). The Proceedings of the VLDB Endowment (PVLDB) 8(12), 2015. [PDF](/people/emansour/paper/vldb15-stardb-essam.pdf)
 
