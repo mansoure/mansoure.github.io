@@ -41,7 +41,7 @@ of distributed transactions and affinity on the maximum throughput
 of the server.
 
 
-##Large-scale Analytics on Strings
+## Large-scale Analytics on Strings
 
 
 Stings are common datasets in a variety of applications such as bioinformatics,
