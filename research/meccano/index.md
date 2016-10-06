@@ -6,6 +6,15 @@ permalink: /research/meccano/
 
 # Collaborative Data Sharing over Decentralized Graphs
 
+This project aims to develop an efficient system and software tools to make it easy for users to share datasets with each other. In life sciences and social applications, users need to maintain their data independently of the applications consuming this data. The resource description framework (RDF) is extensively used to represent datasets on the Web. It uses a simple data model in the form of triples <subject, predicate, object>. A key feature is the ability to link two different entities from two different RDF datasets which are maintained by two local independent authorities, which could be users, research labs, or hospitals. large decentralized graphs can be easily created among a large number of RDF stores where each RDF store provides its own SPARQL endpoint. 
+
+This radically changes the way Web applications work today, resulting in true data ownership as well as improved privacy, which are highly needed for life sciences and social applications. 
+The key challenges in this decentralization and data independence are 1) develop simple and generic, yet powerful, data access mechanisms that enable developers to easily add data collaboration and sharing support to their applications, 2) providing an efficient and scalable query processing mechanism that integrates data from large decentralized graphs, 3) developing fine-grained access control and versioning mechanisms over RDF graphs.     
+
+
+
+
+
 The project aims to radically change the way Web applications work today, resulting in true data ownership as well as improved privacy. Crosscloud provides decentralization and data independence for the social Web. At that level, the interoperability between diverse implementations is key. In addition,  we are experimenting with different architectures for client side and server-side software stacks, and different storage and query architectures. However, the priority of the work is to design the protocols. 
 
 ![crosscloud](/research/meccano/solid_arch.png)
