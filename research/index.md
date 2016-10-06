@@ -12,13 +12,13 @@ title: Research Projects
 
 This project aims to develop an efficient system and software tools to make it easy for users to share datasets with each other. In life sciences and social applications, users need to maintain their data independently of the applications consuming this data. The resource description framework (RDF) is extensively used to represent datasets on the Web. It uses a simple data model in the form of triples <subject, predicate, object>. A key feature is the ability to link two different entities from two different RDF datasets which are maintained by two local independent authorities, which could be users, research labs, or hospitals. large decentralized graphs can be easily created among a large number of RDF stores where each RDF store provides its own SPARQL endpoint. 
 
-
 This radically changes the way Web applications work today, resulting in true data ownership as well as improved privacy, which are highly needed for life sciences and social applications. 
 The key challenges in this decentralization and data independence are 1) develop simple and generic, yet powerful, data access mechanisms that enable developers to easily add data collaboration and sharing support to their applications, 2) providing an efficient and scalable query processing mechanism that integrates data from large decentralized graphs, 3) developing fine-grained access control and versioning mechanisms over RDF graphs.     
 
 
 
 ## An Elastic in-memory OLTP System
+
 
 On-line transaction processing (OLTP) database management systems
 (DBMSs) often serve time-varying workloads due to daily,
@@ -40,7 +40,9 @@ the capacity of a server by explicitly considering the impact
 of distributed transactions and affinity on the maximum throughput
 of the server.
 
+
 ##Large-scale Analytics on Strings
+
 
 Stings are common datasets in a variety of applications such as bioinformatics,
 time series analysis, clustering, text editing, log analysis, and data compression. 
