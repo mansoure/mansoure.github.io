@@ -6,10 +6,10 @@ title: Essam Mansour
 
 I am a Senior Research Software Engineer at Qatar Computing Research Institute (QCRI), Hamad bin Khalifa University (HBKU). My research interests include database systems, large-scale data analytics, Web data management, and parallel/distributed systems, with focus on:
 
-- distributed transaction processing
-- SPARQL query processing against decentralized graphs
-- data integration in life sciences and social applications
-- pattern recognition and motif extraction in long sequences
+- distributed transaction processing,
+- SPARQL query processing against decentralized graphs,
+- data integration in life sciences and social applications, and
+- pattern recognition and motif extraction in long sequences.
 
 
 ## Recent and Current Research Projects 
