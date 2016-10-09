@@ -24,7 +24,7 @@ I was a co-supervisor for KAUST students, who contributed to this project.
 
 - [Majed Sahli](https://scholar.google.com/citations?user=cxF9uPkAAAAJ&hl=en), Ph.D on 2015
 - [Ahmed El-Roby](https://scholar.google.com/citations?user=DA68vjUAAAAJ&hl=en), Master on 2011
-- [Amin Allam](https://scholar.google.com/citations?user=IDVZMEIAAAAJ&hl=en), Ph.D on progress
+- [Amin Allam](https://scholar.google.com/citations?user=IDVZMEIAAAAJ&hl=en), Ph.D in progress
 
 
 ## Publications
