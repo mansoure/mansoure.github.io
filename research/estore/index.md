@@ -28,7 +28,7 @@ of the server.
 
 
 
-##Patents
+## Patents
 
 - Marco Serafini, Essam Mansour, Ashraf Aboulnaga. "A Method and System for Processing Data," US Patent application 14/910970, filed February 2016 (pending)
 

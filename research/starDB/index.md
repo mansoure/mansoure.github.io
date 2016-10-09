@@ -18,6 +18,7 @@ computer. For comparison, the fastest existing method needs 15 minutes using 102
 and supports elastic deployment in the cloud. Based on these efficient string operators, the project developed StarQL, a declarative query language for strings. StarQL is designed to support string processing that targets large datasets and large infrastructures (i.e., clusters and supercomputers). Moreover, we developed StarDB, a distributed database system that supports StarQL.
 
 
+
 ## Ph.D. and Master Students Supervised
 
 I was a co-supervisor for KAUST students, who contributed to this project.  
