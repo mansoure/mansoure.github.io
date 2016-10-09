@@ -4,7 +4,7 @@ title: Research Projects
 permalink: /research/estore/
 ---
 
-# E-Store: an elastic in-memory OLTP system
+# Elastic in-memory OLTP Systems
 
 On-line transaction processing (OLTP) database management systems
 (DBMSs) often serve time-varying workloads due to daily,
