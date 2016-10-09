@@ -14,7 +14,7 @@ This project aims to develop an efficient system and software tools to make it e
 
 
 
-## An Elastic in-memory OLTP System
+## Elastic in-memory OLTP Systems
 
 
 On-line transaction processing (OLTP) database management systems
