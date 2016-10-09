@@ -8,9 +8,9 @@ I am a Senior Research Software Engineer at Qatar Computing Research Institute (
 
 ## Recent and Current Research Projects 
 
-- Collaborative Data Sharing over Decentralized Graphs
-- Elastic in-memory OLTP Systems
-- Large-scale Analytics on Strings
+- [Collaborative Data Sharing over Decentralized Graphs](/research/meccano/)
+- [Elastic in-memory OLTP Systems](/research/estore/)
+- [Large-scale Analytics on Strings](/research/starDB/)
 
 
 ## Academic Service
