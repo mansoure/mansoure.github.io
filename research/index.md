@@ -10,7 +10,7 @@ title: Research Projects
 
 ## Collaborative Data Sharing over Decentralized Graphs
 
-This project aims to develop an efficient system and software tools to make it easy for users to share datasets with each other. In life sciences and social applications, users need to maintain their data independently of the applications consuming this data. The resource description framework (RDF) is extensively used to represent datasets on the Web. It uses a simple data model in the form of triples <subject, predicate, object>. A key feature is the ability to link two different entities from two different RDF datasets which are maintained by two local independent authorities, which could be users, research labs, or hospitals. Large decentralized graphs can be easily created among a large number of RDF stores where each RDF store provides its own SPARQL endpoint. [Read more](/research/meccano/)
+This project aims to develop an efficient system and software tools to make it easy for users to share datasets with each other. In life sciences and social applications, users need to maintain their data independently of the applications consuming this data. The resource description framework (RDF) is extensively used to represent datasets on the Web. It uses a simple data model in the form of triples <subject, predicate, object>. A key feature is the ability to link two different entities from two different RDF datasets which are maintained by two local independent authorities, such as individuals, research labs, or hospitals. Large decentralized graphs can be easily created among a large number of RDF stores where each RDF store provides its own SPARQL endpoint. [Read more](/research/meccano/)
 
 
 
