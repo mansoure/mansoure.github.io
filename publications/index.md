@@ -29,4 +29,12 @@ A complete list of my publications is available at [DBLP](http://dblp.uni-trier.
 
 - Essam Mansour and Hagen Höpfner. [An Approach to Detecting Relevant Updates to Cached Data Using XML and Active Databases](http://dl.acm.org/citation.cfm?doid=1516360.1516451). In Proceedings of the 12th International Conference on Extending Database Technology (EDBT), 2009. [PDF](/publications/paper/edbt09-DRUpE-essam.pdf)
 
+- Essam Mansour and Hagen Höpfner. [Towards an XML-Based Query and Contextual Infor- mation Model in Context-Aware Mobile Information Systems](http://ieeexplore.ieee.org/document/5089006/). In Proceedings of the 10th International Conference on Mobile Data Management: Systems, Services and Middleware (MDM), 2009.
+
+- Essam Mansour and Hagen Höpfner. [An XML-Based Model for Supporting Context-Aware Query and Cache Management](http://link.springer.com/chapter/10.1007%2F978-3-642-02843-4_12). In Proceedings of the 26th British National Conference on Databases BNCOD, 2009. Best Paper Award
+
+- Christian Bunse, Hagen Höpfner, Essam Mansour, and Suman Roychoudhury. [Exploring the Energy Consumption of Data Sorting Algorithms in Embedded and Mobile Environments](http://dx.doi.org/10.1109/MDM.2009.103). In Proceedings of the 10th International Conference on Mobile Data Management: Systems, Services and Middleware (MDM), 2009.
+
+
+
 
