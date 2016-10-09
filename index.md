@@ -28,10 +28,12 @@ I am a Programme Committee member of:
 
 I also regularly review for a number of international journals including:
 
+- ACM Transactions on Database Systems (TODS)
+- The International Journal on Very Large Data Bases (VLDB Journal)
 - IEEE Transactions on Knowledge and Data Engineering (TKDE)
 - IEEE Transactions on Cloud Computing (TCCSI)
 - IEEE Transactions on Big Data (TBD)
-- VLDB Journal
+
 
 
 
