@@ -14,7 +14,7 @@ This project managed to develop a disk-based suffix tree construction
 method, called Elastic Range (ERA), plus a rich
 set of string operators that support string analytics at a large scale. 
 ERA indexes the entire human genome in 19 minutes on an ordinary desktop
-computer. For comparison, the fastest existing method needs 15 minutes using 1024 CPUs on an IBM BlueGene supercomputer. Our mining operators scales out to 16,384 CPUs on a supercomputer;
+computer. For comparison, the fastest existing method needs 15 minutes using 1024 CPUs on an IBM BlueGene supercomputer. Our mining operators scale out to 16,384 CPUs on a supercomputer;
 and supports elastic deployment in the cloud. Based on these efficient string operators, the project developed StarQL, a declarative query language for strings. StarQL is designed to support string processing that targets large datasets and large infrastructures (i.e., clusters and supercomputers). Moreover, we developed StarDB, a distributed database system that supports StarQL.
 
 
