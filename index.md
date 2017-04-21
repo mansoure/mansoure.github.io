@@ -4,8 +4,9 @@ title: Essam Mansour
 ---
 # Welcome
 
-I am a Senior Research Software Engineer at Qatar Computing Research Institute (QCRI), Hamad bin Khalifa University (HBKU). My research interests include database systems, large-scale data analytics, Web data management, and parallel/distributed systems, with focus on:
+I am a Senior Research Software Engineer at Qatar Computing Research Institute (QCRI), Hamad bin Khalifa University (HBKU). My research interests include database systems, large-scale data analytics, Web data management, parallel/distributed systems, and machine learning, with focus on:
 
+- data cleaning,
 - distributed transaction processing,
 - SPARQL query processing over decentralized graphs,
 - data integration in life sciences and social applications, and
@@ -20,8 +21,9 @@ I am a Senior Research Software Engineer at Qatar Computing Research Institute (
 
 
 ## Academic Service
-I am a Program Committee member of:
+A Program Committee member of:
 
+- [VLDB 2018](http://vldb2018.lncc.br/)
 - [VLDB 2017](http://www.vldb.org/2017/review_board.php)
 - [SIGMOD 2016](http://www.sigmod2016.org/org_sigmod_pc.shtml)
 - [ICDE 2016](http://icde2016.fi/committees.php#tabular1)
