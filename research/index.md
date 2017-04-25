@@ -8,9 +8,9 @@ title: Research Projects
 ![crosscloud](/research/essamWordCloud.jpg)
 
 
-## Collaborative Data Sharing over Decentralized Graphs
+## Collaborative Sharing and Data Integration over Decentralized Graphs
 
-This project aims to develop an efficient system and software tools to make it easy for users to share datasets with each other. In life sciences and social applications, users need to maintain their data independently of the applications consuming this data. The resource description framework (RDF) is extensively used to represent datasets on the Web. It uses a simple data model in the form of triples <subject, predicate, object>. A key feature is the ability to link two different entities from two different RDF datasets which are maintained by two local independent authorities, such as individuals, research labs, or hospitals. Large decentralized graphs can be easily created among a large number of RDF stores where each RDF store provides its own SPARQL endpoint. [Read more](/research/meccano/)
+This project aims to develop an efficient system and software tools to make it easy for users to share datasets with each other and integrate data available at geo-distributed engines. The RDF data model allows interlinking entities from different Web sources, where each dataset is independently maintained and accessed via a SPARQL endpoint. Subsequently various applications in life sciences, government open data, decentralized social networks, and Internet of Things, which need to query RDF graphs across geo-distributed and independent endpoints, have emerged. State-of-the-art federated RDF systems usually support a small number of data sources by utilizing schema information. They often cause unnecessary data retrieval and communications, leading to poor scalability and response time; these systems cannot support the need of these emerging applications to access tens to hundreds of geo-distributed RDF datasets. [Read more](/research/meccano/)
 
 
 
