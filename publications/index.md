@@ -80,6 +80,7 @@ A complete list of my publications is available at [DBLP](http://dblp.uni-trier.
 
 - Mohammed Al-Kateb, Essam Mansour, Mohamed E. El-Sharkawi. [CME: A Temporal Relational Model for Efficient Coalescing](/publications/paper/TIME2005_EMansour.pdf). TIME 2005.
 
+
 ## System Demonstrations and Posters
 
 - Essam Mansour, Ibrahim Abdelaziz, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. [A Demonstration of Lusail – Querying Linked Data at Scale](/publications/paper/p1603-mansour.pdf). The International Conference on Management of Data  (SIGMOD), 2017.
