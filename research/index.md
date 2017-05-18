@@ -8,6 +8,10 @@ title: Research Projects
 ![crosscloud](/research/essamWordCloud.jpg)
 
 
+## The Data Civilizer System
+
+The Data Civilizer System is to ease the pain faced in analyzing data “in the wild”. Data Civilizer is an end-to-end big data management system with components for data discovery, data integration and stitching, data cleaning, and querying data from a large variety of storage engines, running in large enterprises. The first thing needed for data discovery is a crawler, which can locate possible data sets, either inside the firewall or outside.  We propose to explore a human-assisted package that will accept hints on places to look.  It will also accept credentials to access possible databases.  Some organizations already have metadata repositories that we can hopefully access.  Using a combination of such techniques we propose to build up our registry of data sources and their contents. [Read more](/research/dc/)
+
 ## Managing Linked Data at Scale: Querying, Integrating, and Sharing
 
 This project aims to develop an efficient system and software tools to make it easy for users to share datasets with each other and integrate data available at geo-distributed engines. The RDF data model allows interlinking entities from different Web sources, where each dataset is independently maintained and accessed via a SPARQL endpoint. Subsequently various applications in life sciences, government open data, decentralized social networks, and Internet of Things, which need to query RDF graphs across geo-distributed and independent endpoints, have emerged. State-of-the-art federated RDF systems usually support a small number of data sources by utilizing schema information. They often cause unnecessary data retrieval and communications, leading to poor scalability and response time; these systems cannot support the need of these emerging applications to access tens to hundreds of geo-distributed RDF datasets. [Read more](/research/meccano/)
