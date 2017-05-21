@@ -18,12 +18,12 @@ We also addressed the data sharing problem in a short collaboration between QCRI
 
 ## publications
 
-[1] Ibrahim Abdelaziz, Essam Mansour, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. Query Optimizations Over Decentralized RDF Graphs. IEEE International Conference on Data Engineering (ICDE), 2017.
+- Ibrahim Abdelaziz, Essam Mansour, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. [Query Optimizations over Decentralized RDF Graphs](/publications/paper/LusailTReport.pdf). Technical Report, 2017.
 
-[2] Essam Mansour, Ibrahim Abdelaziz, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. A Demonstration of Lusail – Querying Linked Data at Scale. The International Conference on Management of Data (SIGMOD), 2017.
+- Ibrahim Abdelaziz, Essam Mansour, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. [Query Optimizations Over Decentralized RDF Graphs](/publications/paper/icde17_lusail_poster.pdf). IEEE International Conference on Data Engineering (ICDE), 2017.
 
-[3] Ibrahim Abdelaziz, Essam Mansour, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. Lusail: A System for Querying Linked Data at Scale. Technical Report.
+- Essam Mansour, Ibrahim Abdelaziz, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. [A Demonstration of Lusail – Querying Linked Data at Scale](/publications/paper/p1603-mansour.pdf). The International Conference on Management of Data  (SIGMOD), 2017.
 
-[4] Andrei Vlad Sambra, Essam Mansour, Sandro Hawke, Maged Zereba, Nicola Greco, Abdur- rahman Ghanem, Dmitri Zagidulin, Ashraf Aboulnaga, Tim Berners-Lee: Solid: A Platform for Decentralized Social Applications Based on Linked Data. Technical Report. [PDF](/research/meccano/solid_protocols.pdf)
+- Andrei Vlad Sambra, Essam Mansour, Sandro Hawke, Maged Zereba, Nicola Greco, Abdur- rahman Ghanem, Dmitri Zagidulin, Ashraf Aboulnaga, Tim Berners-Lee: Solid: A Platform for Decentralized Social Applications Based on Linked Data. Technical Report. [PDF](/research/meccano/solid_protocols.pdf)
 
-[5] Essam Mansour, Andrei Vlad Sambra, Sandro Hawke, Maged Zereba, Sarven Capadisli, Abdurrahman Ghanem, Ashraf Aboulnaga, Tim Berners-Lee: [A Demonstration of the Solid Platform for Social Web Applications](http://dl.acm.org/citation.cfm?doid=2872518.2890529). WWW: 223-226, 2016. [PDF](/publications/paper/www16-solid-essam.pdf)
+- Essam Mansour, Andrei Vlad Sambra, Sandro Hawke, Maged Zereba, Sarven Capadisli, Abdurrahman Ghanem, Ashraf Aboulnaga, Tim Berners-Lee: [A Demonstration of the Solid Platform for Social Web Applications](http://dl.acm.org/citation.cfm?doid=2872518.2890529). WWW: 223-226, 2016. [PDF](/publications/paper/www16-solid-essam.pdf)
