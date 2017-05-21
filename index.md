@@ -16,8 +16,8 @@ I am a Senior Research Software Engineer at Qatar Computing Research Institute (
 ## Recent and Current Research Projects 
 
 - [The Data Civilizer System](/research/dc/)
-<!-- - [Collaborative Sharing and Data Integration over Decentralized Graphs](/research/meccano/) -->
-- [Managing Linked Data at Scale: Querying, Integrating, and Sharing](/research/meccano/)
+<!-- - [Collaborative Sharing and Data Integration over Decentralized Graphs](/research/lusail/) -->
+- [Managing Linked Data at Scale: Querying, Integrating, and Sharing](/research/lusail/)
 - [Elastic in-memory OLTP Systems](/research/estore/)
 - [Large-scale Analytics on Strings](/research/starDB/)
 
