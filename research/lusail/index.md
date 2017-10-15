@@ -18,7 +18,7 @@ We also addressed the data sharing problem in a short collaboration between QCRI
 
 ## publications
 
-- Ibrahim Abdelaziz, Essam Mansour, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. [Query Optimizations over Decentralized RDF Graphs](/publications/paper/LusailTReport.pdf). Technical Report, 2017.
+- Ibrahim Abdelaziz, Essam Mansour, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. [Lusail: A System for Querying Linked Data at Scale](/publications/paper/LusailTReport.pdf). Technical Report, 2017.
 
 - Ibrahim Abdelaziz, Essam Mansour, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. [Query Optimizations Over Decentralized RDF Graphs](/publications/paper/icde17_lusail_poster.pdf). IEEE International Conference on Data Engineering (ICDE), 2017.
 
