@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-Dr. Mansour is a Research Scientist at Qatar Computing Research Institute [(QCRI)](http://qcri.com/). He joined QCRI in June, 2013. 
+Dr. Mansour works as a Scientist at Qatar Computing Research Institute [(QCRI)](http://qcri.com/). He joined QCRI in June, 2013. 
 Dr. Essam Mansour received his Ph.D. in Computer Science in 2008 from Dublin Institute of Technology [(DIT)](http://www.dit.ie/), Ireland. 
 He graduated from [Cairo University](http://www.fci.cu.edu.eg/), Egypt in 2000 with a First Class Honours B.Sc. in Information Systems, and in 2003 with an M.Sc. in Information Systems. 
 He was a Research and Teaching Fellow in [International University in Germany Bruchsal](http://i-u.de/) from July 2008 to Oct 2009, and in King Abdullah University of Science and Technology [(KAUST)](https://www.kaust.edu.sa/en) from Oct 2009 to Jun 2013. 
