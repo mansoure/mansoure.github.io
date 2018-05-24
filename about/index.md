@@ -2,11 +2,11 @@
 layout: default
 title: About
 ---
-
+Dr. Mansour is a Research Scientist at Qatar Computing Research Institute [(QCRI)](http://qcri.com/). He joined QCRI in June, 2013. 
 Dr. Essam Mansour received his Ph.D. in Computer Science in 2008 from Dublin Institute of Technology [(DIT)](http://www.dit.ie/), Ireland. 
 He graduated from [Cairo University](http://www.fci.cu.edu.eg/), Egypt in 2000 with a First Class Honours B.Sc. in Information Systems, and in 2003 with an M.Sc. in Information Systems. 
 He was a Research and Teaching Fellow in [International University in Germany Bruchsal](http://i-u.de/) from July 2008 to Oct 2009, and in King Abdullah University of Science and Technology [(KAUST)](https://www.kaust.edu.sa/en) from Oct 2009 to Jun 2013. 
-Dr. Mansour joined Qatar Computing Research Institute [(QCRI)](http://qcri.com/) as a Senior Research Software Engineer in June, 2013. QCRI is a part of Hamad Bin Khalifa University [(HBKU)](http://www.hbku.edu.qa/). 
+
 
 # QCRI
 At QCRI, he is working on the [Crosscloud project](/projects/crosscloud) for re-decentralizing the web and leading the development of a collaborative data management system based on RDF graphs. The Crosscloud project is a collaboration with [Prof. Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) at MIT. Dr. Mansour is also leading a research project for advanced query processing over decentralized RDF graphs with [Prof. Panos Kalnis](http://web.kaust.edu.sa/faculty/PanosKalnis/) at KAUST. He worked in the [e-store](http://dl.acm.org/citation.cfm?id=2735514) project, an elastic in-memory OLTP system applied to [H-Store](http://hstore.cs.brown.edu/). This project was a collaboration with [Prof. Michael Stonebraker](https://en.wikipedia.org/wiki/Michael_Stonebraker) at MIT.
