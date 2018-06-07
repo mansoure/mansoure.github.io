@@ -10,7 +10,7 @@ My research interests are in the broad areas of parallel/distributed systems, da
 - Discovery and analytics on large datasets
 - Distributed and federated RDF engines for linked data
 - Parallel query processing on large graphs and strings 
-- Cross-Platform Infrastructures for cyber security applications
+- Cross-Platform infrastructures for cyber security applications
 
 
 ## Recent and Current Research Projects 
