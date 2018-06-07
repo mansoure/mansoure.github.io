@@ -6,7 +6,7 @@ title: Essam Mansour
 
 I am a Scientist at Qatar Computing Research Institute (QCRI). My research interests include database systems, large-scale data analytics, Web data management, parallel/distributed systems, and machine learning, with focus on:
 
-- data cleaning,
+- cyber security applications,
 - scalable discovery and analytics on large graphs,
 - parallel and distributed data analytics and OLTP systems,
 - data integration in life sciences and social applications, and
@@ -25,18 +25,21 @@ I am a Scientist at Qatar Computing Research Institute (QCRI). My research inter
 ## Academic Service
 A Program Committee member of:
 
-- [VLDB 2018](http://vldb2018.lncc.br/)
+- [VLDB 2019](http://vldb.org/2019/?review-board)
+- [VLDB 2018](http://vldb2018.lncc.br/review-board.html)
 - [VLDB 2017](http://www.vldb.org/2017/review_board.php)
 - [SIGMOD 2016](http://www.sigmod2016.org/org_sigmod_pc.shtml)
 - [ICDE 2016](http://icde2016.fi/committees.php#tabular1)
 
 I also regularly review for a number of international journals including:
 
-- ACM Transactions on Database Systems (TODS)
-- The International Journal on Very Large Data Bases (VLDB Journal)
+- ACM Transactions on Database Systems (TODS) 
+- The International Journal on Very Large Data Bases (VLDB Journal) 
 - IEEE Transactions on Knowledge and Data Engineering (TKDE)
-- IEEE Transactions on Cloud Computing (TCCSI)
+- IEEE Transactions on Parallel and Distributed Systems (TPDS) 
+- IEEE Transactions on Cloud Computing (TCCSI) 
 - IEEE Transactions on Big Data (TBD)
+
 
 
 
