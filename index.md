@@ -4,13 +4,13 @@ title: Essam Mansour
 ---
 # Welcome
 
-I am a Scientist at Qatar Computing Research Institute (QCRI). My research interests include database systems, large-scale data analytics, Web data management, parallel/distributed systems, and machine learning, with focus on:
+I am a Scientist at Qatar Computing Research Institute (QCRI). 
+My research interests are in the broad areas of parallel/distributed systems, data management, and machine learning for developing scalable systems for big data. My current research focuses on the following areas:
 
-- cyber security applications,
-- scalable discovery and analytics on large graphs,
-- parallel and distributed data analytics and OLTP systems,
-- data integration in life sciences and social applications, and
-- pattern recognition and motif extraction in long sequences.
+- Distributed RDF and linked data
+- Discovery and analytics on large datasets
+- Elastic scale out of database workloads
+- Cross-Platform Infrastructures for cyber security and life sciences applications
 
 
 ## Recent and Current Research Projects 
