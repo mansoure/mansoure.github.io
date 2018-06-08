@@ -8,8 +8,8 @@ I am a Scientist at Qatar Computing Research Institute (QCRI).
 My research interests are in the broad areas of parallel/distributed systems, data management, and machine learning for developing scalable systems for big data. My current research focuses on the following areas:
 
 - Discovery and analytics on large datasets
-- Distributed and federated RDF engines for linked data
 - Parallel query processing on large graphs and strings 
+- Distributed and federated RDF engines for linked data
 - A unified infrastructure for cyber security applications
 
 
