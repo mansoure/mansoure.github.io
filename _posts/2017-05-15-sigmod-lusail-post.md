@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lusail Demo Paper, SIGMOD 2017"
+title: "Lusail Demo Paper at SIGMOD 2017"
 date: 2017-05-15
 ---
 

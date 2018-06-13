@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rheem full paper is accepted at VLDB 2018"
+title: "Rheem paper at VLDB 2018"
 date: 2018-06-07
 ---
 

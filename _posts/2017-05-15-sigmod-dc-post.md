@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Data Civilizer Demo Paper, SIGMOD 2017"
+title: "The Data Civilizer Demo Paper at SIGMOD 2017"
 date: 2017-05-15
 ---
 

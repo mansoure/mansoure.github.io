@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lusail full paper is accepted at VLDB 2018"
+title: "Lusail paper at VLDB 2018"
 date: 2017-11-15
 ---
 
