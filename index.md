@@ -4,8 +4,7 @@ title: Essam Mansour
 ---
 # Welcome
 
-I am a Scientist at Qatar Computing Research Institute (QCRI). 
-My research interests are in the broad areas of parallel/distributed systems, data management, and machine learning for developing scalable systems for big data. My current research focuses on the following areas:
+I am an assistant professor in the Department of Computer-Science and Software Engineering at Concordia University in Montreal, and the head of the Concordia Data Systems (CoDS) lab. My research interests are in the broad areas of parallel/distributed systems, data management, and machine learning for developing scalable systems for big data. My current research focuses on the following areas:
 
 - Discovery and analytics on large datasets
 - Parallel query processing on large graphs and strings 
@@ -25,6 +24,7 @@ My research interests are in the broad areas of parallel/distributed systems, da
 ## Academic Service
 A Program Committee member of:
 
+- [VLDB 2020](https://vldb2020.org/pvldb.html)
 - [VLDB 2019](http://vldb.org/2019/?review-board)
 - [VLDB 2018](http://vldb2018.lncc.br/review-board.html)
 - [VLDB 2017](http://www.vldb.org/2017/review_board.php)
