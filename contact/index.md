@@ -5,14 +5,8 @@ title: Contact
 
 # Contact
 
-Qatar Computing Research Institute
-
-Hamad Bin Khalifa University
-
-HBKU – Research Complex
-
-Room: RD-B1-1117
-
-P.O. Box 5825
-
-Doha, Qatar
+Dept. of Computer Science and Software Engineering
+Concordia University
+Office: EV3.251
+Ph: 514-848-2424 ext. 8540
+http://explore.concordia.ca/essam-mansour
