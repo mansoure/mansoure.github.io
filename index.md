@@ -17,7 +17,6 @@ I am an assistant professor in the Department of Computer-Science and Software E
 ## Other Recent Research Projects 
 
 - [The Data Civilizer System](/research/dc/)
-<!-- - [Collaborative Sharing and Data Integration over Decentralized Graphs](/research/lusail/) -->
 - [Managing Linked Data at Scale: Querying, Integrating, and Sharing](/research/lusail/)
 - [Elastic in-memory OLTP Systems](/research/estore/)
 - [Large-scale Analytics on Strings](/research/starDB/)
@@ -26,6 +25,7 @@ I am an assistant professor in the Department of Computer-Science and Software E
 ## Academic Service
 A Program Committee member of:
 
+- [VLDB 2021](https://vldb.org/2021/)
 - [VLDB 2020](https://vldb2020.org/pvldb.html)
 - [VLDB 2019](http://vldb.org/2019/?review-board)
 - [VLDB 2018](http://vldb2018.lncc.br/review-board.html)
@@ -41,6 +41,8 @@ I also regularly review for a number of international journals including:
 - IEEE Transactions on Parallel and Distributed Systems (TPDS) 
 - IEEE Transactions on Cloud Computing (TCCSI) 
 - IEEE Transactions on Big Data (TBD)
+
+<!-- - [Collaborative Sharing and Data Integration over Decentralized Graphs](/research/lusail/) -->
 
 
 
