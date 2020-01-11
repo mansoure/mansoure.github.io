@@ -4,15 +4,17 @@ title: Essam Mansour
 ---
 # Welcome
 
-I am an assistant professor in the Department of Computer-Science and Software Engineering at Concordia University in Montreal, and the head of the Concordia Data Systems (CoDS) lab. My research interests are in the broad areas of parallel/distributed systems, data management, and machine learning for developing scalable systems for big data. My current research focuses on the following areas:
+I am an assistant professor in the Department of Computer-Science and Software Engineering at Concordia University in Montreal, and the head of the Concordia Data Systems (CoDS) lab. My research interests are in the broad areas of parallel/distributed systems, data management, and machine learning for developing federated data science platforms. 
 
-- Discovery and analytics on large datasets
-- Parallel query processing on large graphs and strings 
+## Current Research projects at the CoDS lab:
+
+- A Natural Language Platform for Querying RDF Graphs
 - Distributed and federated RDF engines for linked data
-- A unified infrastructure for cyber security applications
+- An Automatic Annotation Platform for Neuroscience Datasets
+- Data Science Versioning Control with Explanation and Data Bias Detection Methods
 
 
-## Recent and Current Research Projects 
+## Other Recent Research Projects 
 
 - [The Data Civilizer System](/research/dc/)
 <!-- - [Collaborative Sharing and Data Integration over Decentralized Graphs](/research/lusail/) -->
