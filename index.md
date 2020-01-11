@@ -9,8 +9,8 @@ I am an assistant professor in the Department of Computer-Science and Software E
 ## Current Research projects at the CoDS lab:
 
 - A Natural Language Platform for Querying RDF Graphs
-- Distributed and federated RDF engines for linked data
 - An Automatic Annotation Platform for Neuroscience Datasets
+- A Federated Learning Platform for linked data and Knowledge Graphs
 - Data Science Versioning Control with Explanation and Data Bias Detection Methods
 
 
