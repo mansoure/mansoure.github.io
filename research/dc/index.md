@@ -13,8 +13,8 @@ We study the problem of discovering semantic links of an enterprise knowledge gr
 
 ## Publications
 
-- Essam Mansour, Dong Deng, Raul Castro Fernandez, Abdulhakim Ali Qahtan, Wenbo Tao, Ziawasch Abedjan, Ahmed K. Elmagarmid, Ihab F. Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang. [Building Data Civilizer Pipelines with an Advanced Workflow Engine](https://ieeexplore.ieee.org/document/8509405). IEEE International Conference on Data Engineering (ICDE), 2018.
+- **Essam Mansour**, Dong Deng, Raul Castro Fernandez, Abdulhakim Ali Qahtan, Wenbo Tao, Ziawasch Abedjan, Ahmed K. Elmagarmid, Ihab F. Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang. [Building Data Civilizer Pipelines with an Advanced Workflow Engine](https://ieeexplore.ieee.org/document/8509405). IEEE International Conference on Data Engineering (ICDE), 2018.
 
-- Raul Castro Fernandez, Essam Mansour, Abdulhakim Ali Qahtan, Ahmed K. Elmagarmid, Ihab F. Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang. [Seeping Semantics: Linking Datasets Using Word Embeddings for Data Discovery](https://ieeexplore.ieee.org/document/8509314). IEEE International Conference on Data Engineering (ICDE), 2018.
+- Raul Castro Fernandez, **Essam Mansour**, Abdulhakim Ali Qahtan, Ahmed K. Elmagarmid, Ihab F. Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang. [Seeping Semantics: Linking Datasets Using Word Embeddings for Data Discovery](https://ieeexplore.ieee.org/document/8509314). IEEE International Conference on Data Engineering (ICDE), 2018.
 
-- Raul Castro Fernandez, Dong Deng, Essam Mansour, Abdulhakim Qahtan, Ziawasch Abedjan, Ahmed Elmagarmid, Ihab F. Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang. [A Demo of the Data Civilizer System](/publications/paper/p1639-castro-fernandez.pdf). The International Conference on Management of Data  (SIGMOD), 2017.
+- Raul Castro Fernandez, Dong Deng, **Essam Mansour**, Abdulhakim Qahtan, Ziawasch Abedjan, Ahmed Elmagarmid, Ihab F. Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang. [A Demo of the Data Civilizer System](/publications/paper/p1639-castro-fernandez.pdf). The International Conference on Management of Data  (SIGMOD), 2017.
