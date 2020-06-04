@@ -13,6 +13,11 @@ I am an assistant professor in the Department of Computer-Science and Software E
 - A Federated Learning Platform for linked data and Knowledge Graphs
 - Data Science Versioning Control with Explanation and Data Bias Detection Methods
 
+## I do not have openings for Master students. I am looking for PhD students with the following qualifications: 
+- excellent skills in programming, 
+- M.Sc. in computer science or a related field,
+- experience in databases, RDF, graph data management, distributed systems, or machine learning, and 
+- excellent written and oral communication skills (English).
 
 ## Other Recent Research Projects 
 
@@ -25,6 +30,7 @@ I am an assistant professor in the Department of Computer-Science and Software E
 ## Academic Service
 A Program Committee member of:
 
+- [SIGMOD 2021]()
 - [VLDB 2021](https://vldb.org/2021/)
 - [VLDB 2020](https://vldb2020.org/pvldb.html)
 - [VLDB 2019](http://vldb.org/2019/?review-board)
