@@ -6,7 +6,7 @@ title: Essam Mansour
 
 I am an assistant professor in the Department of Computer-Science and Software Engineering at Concordia University in Montreal, and the head of the Concordia Data Systems (CoDS) lab. My research interests are in the broad areas of parallel/distributed systems, data management, and machine learning for developing federated data science platforms. 
 
-## Current Research projects at the CoDS lab:
+## Current Research projects at CoDS:
 
 - A Natural Language Platform for Querying RDF Graphs
 - An Automatic Annotation Platform for Neuroscience Datasets
