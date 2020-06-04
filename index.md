@@ -19,7 +19,7 @@ I am an assistant professor in the Department of Computer-Science and Software E
 - experience in databases, RDF, graph data management, distributed systems, or machine learning, and 
 - excellent written and oral communication skills (English).
 
-**Note: I do not have openings for Master students. 
+> **Note: I do not have openings for Master students.** 
 
 ## Other Recent Research Projects 
 
