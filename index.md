@@ -16,7 +16,7 @@ I am an assistant professor in the Department of Computer-Science and Software E
 ## I am looking for PhD students with the following qualifications: 
 - excellent skills in programming, 
 - M.Sc. in computer science or a related field,
-- experience in databases, RDF, graph data management, NLP, ML, or distributed systems, and 
+- experience in databases, RDF, NLP, GNN, ML, computer security, or distributed systems, and 
 - excellent written and oral communication skills (English).
 
 > **Note: I do not have openings for Master students.** 
