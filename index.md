@@ -6,20 +6,23 @@ title: Essam Mansour
 
 I am an assistant professor in the Department of Computer-Science and Software Engineering at Concordia University in Montreal, and the head of the Concordia Data Systems (CoDS) lab. My research interests are in the broad areas of parallel/distributed systems, data management, knowledge graphs, and graph neural netwrok for developing systems for **federated data science** and big data analytics. 
 
+> **Note: I do not have openings for PhD or Master students.** 
+
+## PhD Students
+- Hussein Abdallah
+- Mossad Helali 
+- Reham Omar
+
+## Master Students
+- Ahmed Helal
+- Farbod Farhour (with [Emad Shihab](http://das.encs.concordia.ca/members/emad-shihab/))
+
 ## Current Research projects at CoDS:
 
 - A Data Discovery Platform for Data Science
 - A Natural Language Platform for Querying Knowledge Graphs
 - A Data Security and Privacy Platform Powered by Knowledge Graph Technologies
 - Data Science Versioning Control with Explanation and Data Bias Detection Methods
-
-> **Note: I do not have openings for Master students.** 
-
-## I am looking for PhD students with the following qualifications: 
-- excellent skills in programming, 
-- M.Sc. in computer science or a related field,
-- experience in databases, RDF, Knowledge Graphs, NLP, GNN, DL, information security, or distributed systems, and 
-- excellent written and oral communication skills (English).
 
 ## Previous Research Projects 
 
@@ -32,7 +35,7 @@ I am an assistant professor in the Department of Computer-Science and Software E
 ## Academic Service
 A Program Committee member of:
 
-- SIGMOD 2021
+- [SIGMOD 2021](https://2021.sigmod.org/org_sigmod_pc.shtml)
 - [VLDB 2021](https://vldb.org/2021/)
 - [VLDB 2020](https://vldb2020.org/pvldb.html)
 - [VLDB 2019](http://vldb.org/2019/?review-board)
