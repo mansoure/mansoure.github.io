@@ -14,15 +14,19 @@ I am an assistant professor in the Department of Computer-Science and Software E
 - Reham Omar
 
 ## Master Students
-- Ahmed Helal
+- Ishika Dhall
+- Shubham Vashisth
+- Ahmed Aly (with [Amr Youssef](https://users.encs.concordia.ca/~youssef/))
 - Farbod Farhour (with [Emad Shihab](http://das.encs.concordia.ca/members/emad-shihab/))
+- Ahmed Helal (defended his Master thesis on Aug 20, 2021)
 
 ## Current Research projects at CoDS:
 
-- A Data Discovery Platform for Data Science
-- A Natural Language Platform for Querying Knowledge Graphs
-- A Data Security and Privacy Platform Powered by Knowledge Graph Technologies
-- Data Science Versioning Control with Explanation and Data Bias Detection Methods
+- A Cognitive Knowledge Graph Platform
+- A Feature Store for Data Science Projects
+- A Data Discovery and Auto-Pipelines Platform for Data Science
+- A Knowledge Graph Question Answering Platform for Data Science
+- A Data Security and Privacy Platform Empowered by Knowledge Graph Technologies
 
 ## Previous Research Projects 
 
