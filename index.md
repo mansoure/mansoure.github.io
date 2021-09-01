@@ -24,7 +24,7 @@ I am an assistant professor in the Department of Computer-Science and Software E
 
 - Philippe Carrier
 - Duc Nguyen
-- The Kien Nguye
+- The Kien Nguyen
 - Nadia Sheikh
 
 ## Current Research projects at CoDS:
