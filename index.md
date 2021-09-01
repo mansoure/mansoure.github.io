@@ -20,6 +20,13 @@ I am an assistant professor in the Department of Computer-Science and Software E
 - Farbod Farhour (with [Emad Shihab](http://das.encs.concordia.ca/members/emad-shihab/))
 - Ahmed Helal (defended his Master thesis on Aug 20, 2021)
 
+## Undergrad Students
+
+- Philippe Carrier
+- Duc Nguyen
+- The Kien Nguye
+- Nadia Sheikh
+
 ## Current Research projects at CoDS:
 
 - A Cognitive Knowledge Graph Platform
