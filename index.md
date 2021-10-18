@@ -42,7 +42,6 @@ I am an assistant professor in the Department of Computer-Science and Software E
 - [Elastic in-memory OLTP Systems](/research/estore/)
 - [Large-scale Analytics on Strings](/research/starDB/)
 
-
 ## Academic Service
 A Program Committee member of:
 
