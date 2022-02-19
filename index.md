@@ -9,9 +9,9 @@ I am an assistant professor in the Department of Computer-Science and Software E
 > **Note: I do not have openings for PhD or Master students.** 
 
 ## PhD Students
-- Hussein Abdallah
 - Mossad Helali 
 - Reham Omar
+- Hussein Abdallah
 
 ## Master Students
 - Ishika Dhall
@@ -35,12 +35,12 @@ I am an assistant professor in the Department of Computer-Science and Software E
 - A Knowledge Graph Question Answering Platform for Data Science
 - A Data Security and Privacy Platform Empowered by Knowledge Graph Technologies
 
-## Previous Research Projects 
+<!-- ## Previous Research Projects 
 
 - [The Data Civilizer System](/research/dc/)
 - [Managing Linked Data at Scale: Querying, Integrating, and Sharing](/research/lusail/)
 - [Elastic in-memory OLTP Systems](/research/estore/)
-- [Large-scale Analytics on Strings](/research/starDB/)
+- [Large-scale Analytics on Strings](/research/starDB/) -->
 
 ## Academic Service
 A Program Committee member of:
