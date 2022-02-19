@@ -9,9 +9,9 @@ I am an assistant professor in the Department of Computer-Science and Software E
 > **Note: I do not have openings for PhD or Master students.** 
 
 ## PhD Students
+- Hussein Abdallah
 - Mossad Helali 
 - Reham Omar
-- Hussein Abdallah
 
 ## Master Students
 - Ishika Dhall
