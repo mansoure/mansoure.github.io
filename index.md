@@ -6,7 +6,7 @@ title: Essam Mansour
 
 I am an assistant professor in the Department of Computer-Science and Software Engineering at Concordia University in Montreal, and the head of the [Cognitive Data Science (CoDS) lab](https://cods-gcs.github.io). My research program focuses on developing **Cognitive Data Science Platforms for federated and big datasets**. My research interests are in the broad areas of parallel/distributed systems, data management, knowledge graphs, and graph neural networks. 
 
-> **Note: I do not have openings for PhD or Master students.** 
+<!-- > **Note: I do not have openings for PhD or Master students.**  -->
 
 ## PhD Students
 - Hussein Abdallah
