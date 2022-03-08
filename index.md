@@ -23,9 +23,7 @@ I am an assistant professor in the Department of Computer-Science and Software E
 ## Undergrad Students
 
 - Philippe Carrier
-- Duc Nguyen
-- The Kien Nguyen
-- Nadia Sheikh
+- Yasaman Sabbagh
 
 ## Current Research projects at CoDS:
 
