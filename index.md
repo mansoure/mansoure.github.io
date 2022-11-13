@@ -30,8 +30,8 @@ I am an assistant professor in the Department of Computer-Science and Software E
 ## Current Research projects at CoDS:
 
 - A Linked Data Scince Knowledge Graph Platform 
-- A Graph Machine Learning-Enabled Knowledge Graph Platform 
 - Automating Data Preparation and Feature Discovery Pipelines
+- A Graph Machine Learning-Enabled Knowledge Graph Platform 
 - A Knowledge Graph Question Answering Platform for Data Science
 - A Cyber Threats Hunting Platform Powered by Graph Neural Networks
 
