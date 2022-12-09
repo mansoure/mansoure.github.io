@@ -11,8 +11,8 @@ I am an assistant professor in the Department of Computer-Science and Software E
 
 ## PhD Students
 - Hussein Abdallah
-- Mossad Helali 
-- Reham Omar
+- Reham Omar 
+- Mossad Helali
 - Ahmed Aly (with [Amr Youssef](https://users.encs.concordia.ca/~youssef/))
 
 ## Master Students
@@ -48,11 +48,12 @@ A Program Committee member of:
 - [SIGMOD 2023](https://2023.sigmod.org/) **Meta-reviewer**
 - [VLDB 2023](http://vldb.org/pvldb/volumes/16/review-board), [VLDB 2021](https://vldb.org/2021/), [VLDB 2020](https://vldb2020.org/pvldb.html), [VLDB 2019](http://vldb.org/2019/?review-board), [VLDB 2018](http://vldb2018.lncc.br/review-board.html), [VLDB 2017](http://www.vldb.org/2017/review_board.php)
 - [ICDE 2023](https://icde2023.ics.uci.edu/research-program-committee/), [ICDE 2016](http://icde2016.fi/committees.php#tabular1)
-- [SIGMOD 2021](https://2021.sigmod.org/org_sigmod_pc.shtml), [SIGMOD 2016](http://www.sigmod2016.org/org_sigmod_pc.shtml)
 - [The Web Conference 2023](https://2021.sigmod.org/org_sigmod_pc.shtml)
 - [EDBT 2023](http://edbticdt2023.cs.uoi.gr/?contents=EDBT_Committee.html)
 - [ISWC 2022](https://iswc2022.semanticweb.org/index.php/research-track-pc/), [ISWC 2021](https://iswc2021.semanticweb.org/research-track-pc)
+- [SIGMOD 2021](https://2021.sigmod.org/org_sigmod_pc.shtml), [SIGMOD 2016](http://www.sigmod2016.org/org_sigmod_pc.shtml)
 - [KDD 2021](https://kdd.org/kdd2021/organizers/PC_SPC)
+
 
 I also regularly review for a number of international journals including:
 
