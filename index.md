@@ -46,13 +46,9 @@ I am an assistant professor in the Department of Computer-Science and Software E
 ## Academic Service
 A Program Committee member of:
 - [SIGMOD 2023](https://2023.sigmod.org/) **Meta-reviewer**
-- [VLDB 2023]
+- [VLDB 2023](http://vldb.org/pvldb/volumes/16/review-board)
 - [SIGMOD 2021](https://2021.sigmod.org/org_sigmod_pc.shtml)
-- [VLDB 2021](https://vldb.org/2021/)
-- [VLDB 2020](https://vldb2020.org/pvldb.html)
-- [VLDB 2019](http://vldb.org/2019/?review-board)
-- [VLDB 2018](http://vldb2018.lncc.br/review-board.html)
-- [VLDB 2017](http://www.vldb.org/2017/review_board.php)
+- [VLDB 2021](https://vldb.org/2021/), [VLDB 2020](https://vldb2020.org/pvldb.html), [VLDB 2019](http://vldb.org/2019/?review-board), [VLDB 2018](http://vldb2018.lncc.br/review-board.html), [VLDB 2017](http://www.vldb.org/2017/review_board.php)
 - [SIGMOD 2016](http://www.sigmod2016.org/org_sigmod_pc.shtml)
 - [ICDE 2016](http://icde2016.fi/committees.php#tabular1)
 
