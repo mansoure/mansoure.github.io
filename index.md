@@ -4,7 +4,7 @@ title: Essam Mansour
 ---
 # Welcome
 
-I am an assistant professor in the Department of Computer-Science and Software Engineering at Concordia University in Montreal, and the head of the [Cognitive Data Science (CoDS) lab](https://cods-gcs.github.io). My research program focuses on developing systems for **Linked Data Science** on federated and big datasets. My research interests are in the broad areas of knowledge graphs, graph neural networks, parallel/distributed systems, and data management.
+I am an assistant professor in the Department of Computer Science and Software Engineering at Concordia University in Montreal and the head of the [Cognitive Data Science (CoDS) lab](https://cods-gcs.github.io). My research program focuses on developing systems for **Linked Data Science** on federated and big datasets. My research interests are in the broad areas of knowledge graphs, graph neural networks, large language models, parallel/distributed systems, and data management.
 
 <font color="red">**Note: I do not have openings for Master students.**</font>
 
@@ -12,27 +12,27 @@ I am an assistant professor in the Department of Computer-Science and Software E
 - Hussein Abdallah
 - Reham Omar 
 - Mossad Helali
+- Waleed Afandi
+- Saeed Fathollahzadeh
 - Ahmed Aly (with [Amr Youssef](https://users.encs.concordia.ca/~youssef/))
 
 ## Master Students
 - Niki Monjazeb
-- Waleed Afandi
 - Omij Mangukiya
-- Ishika Dhall
-- Shubham Vashisth
-- Farbod Farhour (with [Emad Shihab](http://das.encs.concordia.ca/members/emad-shihab/)) (defended his Master thesis on May 2022)
-- Ahmed Helal (defended his Master thesis on Aug 20, 2021)
+- Ishika Dhall (Graduated in 2023, First Employment: AI Scientist at National Bank of Canada)
+- Shubham Vashisth (Graduated in 2023, First Employment: PhD Student at McGill)
+- Ahmed Helal (Graduated in 2021, First Employment: Software Engineer - Big Data Platform at Huawei)
 
 ## Undergrad Students
 
-- Philippe Carrier
-- Yasaman Sabbagh
+- Philippe Carrier (Graduated in 2023, First Employment: Software Engineer - at Amazon)
+- Yasaman Sabbagh (Graduated in 2022, First Employment: PhD student at McGill) 
 
 ## Current Research projects at CoDS:
 
-- A Chatbot Platform for Knowledge Graphs
-- A Graph ML-Enabled Knowledge Graph Platform 
-- A Linked Data Scince Knowledge Graph Platform 
+- A Linked Data Science Knowledge Graph Platform 
+- A GNN- and LLM- Enabled Knowledge Graph Platform 
+- An LLM-based Chatbot Platform for Knowledge Graphs
 - Automating Data Preparation and Feature Discovery Pipelines
 - A Cyber Threats Hunting Platform Powered by Graph Neural Networks
 
@@ -46,8 +46,8 @@ I am an assistant professor in the Department of Computer-Science and Software E
 
 ## Academic Service
 A Program Committee member of:
-- [SIGMOD 2023](https://2023.sigmod.org/) **Meta-reviewer**
-- [VLDB 2023](http://vldb.org/pvldb/volumes/16/review-board), [VLDB 2021](https://vldb.org/2021/), [VLDB 2020](https://vldb2020.org/pvldb.html), [VLDB 2019](http://vldb.org/2019/?review-board), [VLDB 2018](http://vldb2018.lncc.br/review-board.html), [VLDB 2017](http://www.vldb.org/2017/review_board.php)
+- [SIGMOD 2025]([https://2025.sigmod.org/](https://2025.sigmod.org/org_sigmod_pc.shtml)), [SIGMOD 2023](https://2023.sigmod.org/org_sigmod_pc.shtml)) **Meta-reviewer**
+- [VLDB 2025](http://vldb.org/pvldb/volumes/18/review-board) [VLDB 2024](http://vldb.org/pvldb/volumes/17/review-board), [VLDB 2023](http://vldb.org/pvldb/volumes/16/review-board), [VLDB 2021](https://vldb.org/2021/), [VLDB 2020](https://vldb2020.org/pvldb.html), [VLDB 2019](http://vldb.org/2019/?review-board), [VLDB 2018](http://vldb2018.lncc.br/review-board.html), [VLDB 2017](http://www.vldb.org/2017/review_board.php)
 - [ICDE 2023](https://icde2023.ics.uci.edu/research-program-committee/), [ICDE 2016](http://icde2016.fi/committees.php#tabular1)
 - [The Web Conference 2023](https://2021.sigmod.org/org_sigmod_pc.shtml)
 - [EDBT 2023](http://edbticdt2023.cs.uoi.gr/?contents=EDBT_Committee.html)
@@ -56,7 +56,7 @@ A Program Committee member of:
 - [KDD 2021](https://kdd.org/kdd2021/organizers/PC_SPC)
 
 
-I also regularly review for a number of international journals including:
+I also regularly review for a number of international journals, including:
 
 - ACM Transactions on Database Systems (TODS) 
 - The International Journal on Very Large Data Bases (VLDB Journal) 
