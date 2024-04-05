@@ -46,7 +46,7 @@ I am an assistant professor in the Department of Computer Science and Software E
 
 ## Academic Service
 A Program Committee member of:
-- [SIGMOD 2025]([https://2025.sigmod.org/](https://2025.sigmod.org/org_sigmod_pc.shtml)), [SIGMOD 2023](https://2023.sigmod.org/org_sigmod_pc.shtml)) **Meta-reviewer**
+- [SIGMOD 2025](https://2025.sigmod.org/org_sigmod_pc.shtml), [SIGMOD 2023](https://2023.sigmod.org/org_sigmod_pc.shtml)) **Meta-reviewer**
 - [VLDB 2025](http://vldb.org/pvldb/volumes/18/review-board) [VLDB 2024](http://vldb.org/pvldb/volumes/17/review-board), [VLDB 2023](http://vldb.org/pvldb/volumes/16/review-board), [VLDB 2021](https://vldb.org/2021/), [VLDB 2020](https://vldb2020.org/pvldb.html), [VLDB 2019](http://vldb.org/2019/?review-board), [VLDB 2018](http://vldb2018.lncc.br/review-board.html), [VLDB 2017](http://www.vldb.org/2017/review_board.php)
 - [ICDE 2023](https://icde2023.ics.uci.edu/research-program-committee/), [ICDE 2016](http://icde2016.fi/committees.php#tabular1)
 - [The Web Conference 2023](https://2021.sigmod.org/org_sigmod_pc.shtml)
