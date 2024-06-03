@@ -4,7 +4,7 @@ title: Essam Mansour
 ---
 # Welcome
 
-I am an assistant professor in the Department of Computer Science and Software Engineering at Concordia University in Montreal and the head of the [Cognitive Data Science (CoDS) lab](https://cods-gcs.github.io). My research program focuses on developing systems for **Linked Data Science** on federated and big datasets. My research interests are in the broad areas of knowledge graphs, graph neural networks, large language models, parallel/distributed systems, and data management.
+I am an associate  professor in the Department of Computer Science and Software Engineering at Concordia University in Montreal and the head of the [Cognitive Data Science (CoDS) lab](https://cods-gcs.github.io). My research program focuses on developing systems for **Linked Data Science** on federated and big datasets. My research interests are in the broad areas of knowledge graphs, graph neural networks, large language models, parallel/distributed systems, and data management.
 
 <font color="red">**Note: I do not have openings for Master students.**</font>
 
