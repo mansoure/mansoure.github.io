@@ -1,0 +1,94 @@
+# group: agentic | foundational. `featured: true` shows the card on the home page.
+- id: mafbench
+  name: MAFBench
+  group: agentic
+  featured: true
+  venue: SIGMOD 2027
+  desc: "Unified evaluation suite for multi-agent LLM frameworks, with an architectural taxonomy over five dimensions and a controlled study of nine frameworks. Yields six evidence-based design principles."
+  code: https://github.com/CoDS-GCS/MAFBench
+  paper: https://arxiv.org/abs/2602.03128
+- id: memstate
+  name: MemState
+  group: agentic
+  venue: Vision paper, 2026
+  desc: "Prototype of Governed Evolving Memory on a property-graph backend, with topic-based storage, typed dependencies and declarative policies."
+  code: https://github.com/CoDS-GCS/MemState
+  paper: https://arxiv.org/abs/2605.26252
+- id: chatty-kg
+  name: Chatty-KG
+  group: agentic
+  featured: true
+  venue: SIGMOD 2026
+  desc: "Multi-agent system for on-demand conversational question answering over large knowledge graphs. Doubles accuracy (39 to 80 F1) with the same LLM under a better architecture."
+  code: https://github.com/CoDS-GCS/Chatty-KG
+  paper: https://arxiv.org/abs/2511.20940
+- id: resequel
+  name: ReSequel
+  group: agentic
+  featured: true
+  venue: VLDB 2026
+  desc: "LLM-assisted SQL rewriting over PostgreSQL, MySQL and DuckDB: templatizes workloads, infers rules from the catalog, verifies candidates on downsampled data. Up to 16× over native engines."
+  code: https://github.com/CoDS-GCS/ReSequel
+  paper: https://arxiv.org/abs/2606.20853
+- id: ocr-apt
+  name: OCR-APT
+  group: agentic
+  featured: true
+  venue: CCS 2025
+  desc: "Reconstructs advanced persistent threat stories from audit logs using subgraph anomaly detection and LLMs, with hard-gating assertion validation."
+  code: https://github.com/CoDS-GCS/OCR-APT
+  paper: https://www.arxiv.org/abs/2510.15188
+- id: ragvis
+  name: RAGvis
+  group: agentic
+  featured: true
+  venue: EMNLP 2025 (main)
+  desc: "Knowledge-grounded RAG for exploratory data analysis and visualization; a reliable, cost-effective alternative to large-model EDA."
+  note: "Released in Google's own GitHub organization."
+  code: https://github.com/google/ragvis
+  paper: https://aclanthology.org/2025.emnlp-main.836.pdf
+- id: catdb
+  name: CatDB
+  group: agentic
+  featured: true
+  venue: VLDB 2025
+  desc: "Data-catalog-guided, LLM-based generator of data-centric ML pipelines, with iterative self-correction validated on the actual data."
+  code: https://github.com/CoDS-GCS/CatDB
+  paper: https://www.vldb.org/pvldb/vol18/p2639-fathollahzadeh.pdf
+- id: chatty-gen
+  name: Chatty-Gen
+  group: agentic
+  venue: SIGMOD 2025
+  desc: "Dialogue benchmark generation from knowledge graphs with retrieval-augmented LLMs, cutting cost from thousands of dollars to under one dollar."
+  code: https://github.com/CoDS-GCS/Chatty-Gen
+  paper: https://dl.acm.org/doi/10.1145/3709681
+
+- id: kglids
+  name: KGLiDS
+  group: foundational
+  venue: ICDE 2024
+  desc: "Platform for semantic abstraction, linking and automation of data science over knowledge graphs. Underlies CatDB and RAGvis."
+  note: "Adopted by Google and Kaggle teams for production data science workflows."
+  code: https://github.com/CoDS-GCS/kglids
+  paper: https://ieeexplore.ieee.org/document/10597753
+- id: kgnet
+  name: KGNet
+  group: foundational
+  venue: ICDE 2024, ICDE 2026
+  desc: "GNN-enabled knowledge graph engine with task-oriented training and LLM-guided query-aware inference (KG-WISE)."
+  code: https://github.com/CoDS-GCS/KGNET
+  paper: https://ieeexplore.ieee.org/document/10597998
+- id: kgqan
+  name: KGQAn
+  group: foundational
+  venue: SIGMOD 2023
+  desc: "Universal question answering over knowledge graphs."
+  code: https://github.com/CoDS-GCS/KGQAn
+  paper: https://doi.org/10.1145/3588911
+- id: kgpip
+  name: KGpip
+  group: foundational
+  venue: VLDB 2022
+  desc: "Scalable AutoML approach based on graph neural networks, developed with IBM Research."
+  code: https://github.com/CoDS-GCS/kgpip-public
+  paper: https://arxiv.org/abs/2111.00083

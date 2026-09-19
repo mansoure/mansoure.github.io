@@ -1,0 +1,69 @@
+# Newest first. One entry per accepted paper, invited talk, student milestone and grant,
+# added the week it happens. precision: day | month | year controls how the date is shown.
+# Dates below come from the CV and arXiv identifiers; refine day/month where marked TODO.
+
+- date: 2026-09-01
+  precision: month
+  title: "Three PhD students and one MSc student join CoDS"
+  body: "Yomna Gharib, Loubna Guelmani and Qizhi Wang (PhD) and Farbod Aminnezhad (MSc) start in September 2026, working on agent security, governed memory, validation of agent-generated code, and action contracts."
+  link: /team/
+
+- date: 2026-06-01
+  precision: month
+  title: "ReSequel: robust LLM-assisted query rewriting, at VLDB 2026"
+  body: "With Saeed Fathollahzadeh and Matthias Boehm. Up to 16× faster than native PostgreSQL, MySQL and DuckDB across eight benchmarks."
+  link: https://arxiv.org/abs/2606.20853
+
+- date: 2026-05-01
+  precision: month
+  title: "General Chair of IEEE ICDE 2026, Montreal"
+  body: "Essam Mansour served as General Chair with Fei Chiang, and joined the panel “What can agents do for databases?” with Fatma Özcan, Wenjie Zhang, Aditya Parameswaran and Bolin Ding."
+  link: /service/
+
+- date: 2026-05-01
+  precision: month
+  title: "Vision paper: “Is Agent Memory a Database?”"
+  body: "Governed Evolving Memory for long-term agents, with a prototype on a property-graph backend (MemState)."
+  link: https://arxiv.org/abs/2605.26252
+
+- date: 2026-04-01
+  precision: month
+  title: "Dagstuhl Seminar 26161: Managing Vector Data for RAG"
+  body: "Invited participant and technical lead; led the Agentic Systems cross-topic session."
+  link: /service/
+
+- date: 2026-02-01
+  precision: month
+  title: "MAFBench: architecture, not only model intelligence, governs multi-agent LLM performance"
+  body: "Controlled study of nine agent frameworks, accepted at SIGMOD 2027."
+  link: https://arxiv.org/abs/2602.03128
+
+- date: 2026-01-01
+  precision: year
+  title: "Chatty-KG at SIGMOD 2026 and KG-WISE at ICDE 2026"
+  body: "Conversational question answering over knowledge graphs, and LLM-guided query-aware GNN inference."
+  link: /systems/
+  # TODO: add exact months for Chatty-KG (SIGMOD 2026) and KG-WISE (ICDE 2026).
+
+- date: 2026-01-01
+  precision: year
+  title: "Saeed Fathollahzadeh and Reham Omar complete their PhDs"
+  body: "Saeed (co-supervised with Matthias Boehm) is now a postdoctoral scholar at the University of Waterloo."
+  link: /team/
+  # TODO: add months of the two defences.
+
+- date: 2025-09-01
+  precision: month
+  title: "NRC Canada project on secure knowledge sharing and agentic threat detection"
+  body: "Three-year collaboration (2025 to 2028) with the National Research Council Canada for the digitized construction industry."
+
+- date: 2025-01-01
+  precision: year
+  title: "Papers at CCS, EMNLP, VLDB and SIGMOD 2025"
+  body: "OCR-APT (CCS), RAGvis (EMNLP, main conference), CatDB (VLDB) and Chatty-Gen (SIGMOD)."
+  link: /systems/
+
+- date: 2025-01-01
+  precision: year
+  title: "SIGMOD 2025 Distinguished Reviewer Award; Hussein Abdallah and Mossad Helali complete their PhDs"
+  link: /service/

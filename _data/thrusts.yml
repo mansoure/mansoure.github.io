@@ -1,0 +1,37 @@
+- id: memory
+  title: Governed memory and tacit knowledge
+  text: "Long-term agent memory is a data-management workload, not storage. Every framework we measured treats memory as append-only, so an agent cannot revise what it believes. We treat memory as a governed state machine with typed dependencies, semantic revision, declarative forgetting and multi-tenant privacy, where correctness is a property of the state trajectory rather than of individual records."
+  short: "Agent memory as a governed state machine: typed dependencies, semantic revision, declarative forgetting, multi-tenant privacy."
+  people:
+    - { name: "Loubna Guelmani", role: "PhD" }
+    - { name: "Dr. Abdelghny Orogat", role: "postdoc" }
+  systems: "MemState"
+- id: contracts
+  title: Action contracts and governed mediation
+  text: "Governance must be structural. Agents reach enterprise data only through mediated contracts, so policy is enforced by construction rather than by configuration. Every read, write and promotion of a claim passes a declared gate, which addresses belief laundering: the promotion of agent-generated claims to observed status without a governed gate."
+  short: "Structural enforcement of what an agent may read, write and promote; addresses belief laundering."
+  people:
+    - { name: "Farbod Aminnezhad", role: "MSc" }
+  systems: ""
+- id: validation
+  title: Validation of agent-generated code
+  text: "Validation must be grounded in data. Assertion-based and derivation-aware checks against the actual data replace probabilistic LLM self-judgment. Classical functional dependencies break under non-deterministic producers, so derivation-aware constraints replace them. CatDB, ReSequel and OCR-APT already follow this pattern."
+  short: "Assertion-based and derivation-aware validation that replaces probabilistic self-judgment."
+  people:
+    - { name: "Qizhi Wang", role: "PhD" }
+  systems: "CatDB, ReSequel"
+- id: security
+  title: Agent security and threat detection
+  text: "Agent memory is an attack surface. We study multi-agent attack surfaces, memory poisoning and prompt injection under enterprise deployment, building on our work on advanced persistent threat hunting with graph learning and LLMs."
+  short: "Multi-agent attack surfaces, memory poisoning and prompt injection. Builds on OCR-APT and MEGR-APT."
+  people:
+    - { name: "Yomna Gharib", role: "PhD" }
+    - { name: "Ahmed Aly", role: "PhD, with Amr Youssef" }
+  systems: "OCR-APT, MEGR-APT"
+- id: gfm
+  title: Graph foundation models for agentic reasoning
+  text: "Motif-centric inference over large enterprise knowledge graphs gives agents structured recall at scale. This thrust builds on our GNN-enabled knowledge graph engine, KGNet, and on LLM-guided query-aware inference."
+  short: "Motif-centric inference over enterprise knowledge graphs, giving agents structured recall at scale."
+  people:
+    - { name: "Waleed Afandi", role: "PhD" }
+  systems: "KGNet, KG-WISE, KG-CORE"

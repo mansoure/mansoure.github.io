@@ -1,18 +1,4 @@
 ---
-layout: default
 title: About
+redirect_to: /cv/
 ---
-Dr. Essam Mansour is an associate  professor in the Department of Computer-Science and Software Engineering [(CSSE)](https://www.concordia.ca/ginacody/computer-science-software-eng/faculty.html?fpid=essam-mansour) at [Concordia University](https://www.concordia.ca/) in Montreal, and the head of the Concordia Data Systems [(CoDS)](http://cods.encs.concordia.ca/) lab. Essam joined Concordia University in 2019. His research interests are in the broad areas of parallel/distributed systems, data management, and machine learning for developing systems for federated data science and big data analytics. He worked as a Scientist from 2013 to 2019 at the Qatar Computing Research Institute [(QCRI)](http://qcri.com/). Before that, he was a Research Fellow at [(KAUST)](https://www.kaust.edu.sa/en) from 2009 to 2013, and a Research Fellow at the International University in Germany Bruchsal from 2008 to 2009. Essam received his Ph.D. in Computer Science from Dublin Institute of Technology [(DIT)](http://www.dit.ie/), Ireland in 2008. He obtained his B.Sc. and M.Sc. in Computer Science from [Cairo University](http://www.fci.cu.edu.eg/), Egypt in 2000 and 2003, respectively. Essam spent more than 10 years doing world-class research, in the areas of databases, parallel/distributed systems, big data analytics, and querying geo-distributed graphs. He is developing and optimizing big data systems to work at scale on supercomputers and cloud resources. During these years, his research contributions have led to more than 30 conference and journal papers (mostly in top-tier venues, such as VLDBJ, PVLDB, SIGMOD, ICDE, EDBT, and CIKM). He has been invited as a reviewer for top journals, such as ACM Transactions on Database Systems (TODS), VLDB Journal, and IEEE Transactions on Knowledge and Data Engineering (TKDE). Essam also has served as a program committee member in several top conferences, such as SIGMOD 2021, VLDB 2016 to 2021, SIGMOD 2016, and ICDE 2016.
-
-
-# QCRI
-At QCRI, he is working on the [Crosscloud project](/projects/crosscloud) for re-decentralizing the web and leading the development of a collaborative data management system based on RDF graphs. The Crosscloud project is a collaboration with [Prof. Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) at MIT. Dr. Mansour is also leading a research project for advanced query processing over decentralized RDF graphs with [Prof. Panos Kalnis](http://web.kaust.edu.sa/faculty/PanosKalnis/) at KAUST. He worked in the [e-store](http://dl.acm.org/citation.cfm?id=2735514) project, an elastic in-memory OLTP system applied to [H-Store](http://hstore.cs.brown.edu/). This project was a collaboration with [Prof. Michael Stonebraker](https://en.wikipedia.org/wiki/Michael_Stonebraker) at MIT.
-
-# KAUST
-At KAUST, Dr. Essam Mansour was a research fellow working with [Prof. Panos Kalnis](http://web.kaust.edu.sa/faculty/PanosKalnis/). Dr. Mansour led a project for developing a framework for a cloud-based string database system. The project aimed to bridge the gap between Big Data analytics and cloud computing.
-Dr. Mansour has developed different parallel string algorithms, such as maximal pairs and motif extraction. His system utilizes multi-core systems, clusters and supercomputers. Compared to recent methods, his system can expect much faster execution while supporting 2-3 orders of magnitude more data than existing methods. Moreover, his system reports scalability up to 16,384 cores on a supercomputer. 
-
-Dr. Mansour delivered a complete course in Cloud Computing at KAUST. Additionally, he offered different lectures on advanced data management for KAUST students.
-
-
-

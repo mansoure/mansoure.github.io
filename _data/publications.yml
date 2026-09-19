@@ -1,0 +1,127 @@
+# Students supervised by or working closely with Essam Mansour are marked with an asterisk (*).
+# Selected list (from the CV); the full list lives on DBLP and Google Scholar.
+- group: Agentic AI, memory and safety
+  slug: agentic
+  items:
+    - id: A1
+      authors: "Abdelghny Orogat*, Ana Rostam*, Essam Mansour"
+      title: "Architectural Design, Not Only Model Intelligence, Governs Multi-Agent LLM Performance"
+      venue: "Proceedings of the ACM on Management of Data (SIGMOD)"
+      year: 2027
+      links: [ { l: arXiv, u: "https://arxiv.org/abs/2602.03128" }, { l: Code, u: "https://github.com/CoDS-GCS/MAFBench" } ]
+    - id: A2
+      authors: "Abdelghny Orogat*, Essam Mansour"
+      title: "Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory"
+      venue: "Vision paper"
+      year: 2026
+      links: [ { l: arXiv, u: "https://arxiv.org/abs/2605.26252" }, { l: Code, u: "https://github.com/CoDS-GCS/MemState" } ]
+    - id: A3
+      authors: "Reham Omar*, Abdelghny Orogat*, Ibrahim Abdelaziz, Omij Mangukiya*, Panos Kalnis, Essam Mansour"
+      title: "Chatty-KG: A Multi-Agent AI System for On-Demand Conversational Question Answering over Knowledge Graphs"
+      venue: "Proceedings of the ACM on Management of Data (SIGMOD)"
+      year: 2026
+      links: [ { l: arXiv, u: "https://arxiv.org/abs/2511.20940" }, { l: Code, u: "https://github.com/CoDS-GCS/Chatty-KG" } ]
+    - id: A4
+      authors: "Ahmed Aly*, Essam Mansour, Amr Youssef"
+      title: "OCR-APT: Reconstructing APT Stories from Audit Logs using Subgraph Anomaly Detection and LLMs"
+      venue: "ACM Conference on Computer and Communications Security (CCS)"
+      year: 2025
+      links: [ { l: arXiv, u: "https://www.arxiv.org/abs/2510.15188" }, { l: Code, u: "https://github.com/CoDS-GCS/OCR-APT" } ]
+    - id: A5
+      authors: "Ahmed Aly*, Shahrear Iqbal, Amr Youssef, Essam Mansour"
+      title: "MEGR-APT: A Memory-Efficient APT Hunting System Based on Attack Representation Learning"
+      venue: "IEEE Transactions on Information Forensics and Security (TIFS)"
+      year: 2024
+      links: [ { l: IEEE, u: "https://ieeexplore.ieee.org/document/10517754" } ]
+
+- group: LLM and knowledge graph systems
+  slug: llm-kg
+  items:
+    - id: L1
+      authors: "Saeed Fathollahzadeh*, Essam Mansour, Matthias Boehm"
+      title: "ReSequel: Robust LLM-assisted Query Rewriting and Optimization using Templatization and Sampling"
+      venue: "PVLDB (VLDB 2026)"
+      year: 2026
+      links: [ { l: arXiv, u: "https://arxiv.org/abs/2606.20853" }, { l: Code, u: "https://github.com/CoDS-GCS/ReSequel" } ]
+    - id: L2
+      authors: "Hussein Abdallah*, Ibrahim Abdelaziz, Panos Kalnis, Essam Mansour"
+      title: "Leveraging LLM-GNN Integration for Open-World Question Answering over Knowledge Graphs"
+      venue: "19th Conference of the European Chapter of the ACL (EACL), 575–592"
+      year: 2026
+      links: [ { l: arXiv, u: "https://arxiv.org/abs/2604.13979" } ]
+    - id: L3
+      authors: "Waleed Afandi*, Hussein Abdallah*, Ashraf Aboulnaga, Essam Mansour"
+      title: "KG-WISE: An LLM-Guided Query-Aware Inference System for GNN Models on Large Knowledge Graphs"
+      venue: "IEEE ICDE"
+      year: 2026
+      links: [ { l: arXiv, u: "https://arxiv.org/abs/2603.04545" } ]
+    - id: L4
+      authors: "Waleed Afandi*, Hussein Abdallah*, Ashraf Aboulnaga, Essam Mansour"
+      title: "KG-CORE: Scalable Motif-Centric Inference for Knowledge Graph Foundation Models"
+      venue: "Proceedings of the ACM on Management of Data (SIGMOD 2027), major revision"
+      year: 2027
+      links: []
+    - id: L5
+      authors: "Mossad Helali*, Yutai Luo, Tae Jun Ham, Jim Plotts, Ashwin Chaugule, Jichuan Chang, Parthasarathy Ranganathan, Essam Mansour"
+      title: "Beyond Large Models: Reliable and Cost-Effective Exploratory Data Analysis via Knowledge-Grounded RAG"
+      venue: "EMNLP, main conference"
+      year: 2025
+      links: [ { l: Paper, u: "https://aclanthology.org/2025.emnlp-main.836.pdf" }, { l: Code, u: "https://github.com/google/ragvis" } ]
+    - id: L6
+      authors: "Saeed Fathollahzadeh*, Essam Mansour, Matthias Boehm"
+      title: "CatDB: Data-catalog-guided, LLM-based Generation of Data-centric ML Pipelines"
+      venue: "PVLDB 18(4) (VLDB 2025)"
+      year: 2025
+      links: [ { l: Paper, u: "https://www.vldb.org/pvldb/vol18/p2639-fathollahzadeh.pdf" }, { l: Code, u: "https://github.com/CoDS-GCS/CatDB" } ]
+    - id: L7
+      authors: "Reham Omar*, Omij Mangukiya*, Essam Mansour"
+      title: "Dialogue Benchmark Generation from Knowledge Graphs with Cost-Effective Retrieval-Augmented LLMs"
+      venue: "Proceedings of the ACM on Management of Data (SIGMOD)"
+      year: 2025
+      links: [ { l: DOI, u: "https://dl.acm.org/doi/10.1145/3709681" }, { l: Code, u: "https://github.com/CoDS-GCS/Chatty-Gen" } ]
+    - id: L8
+      authors: "Reham Omar*, Ishika Dhall*, Panos Kalnis, Essam Mansour"
+      title: "A Universal Question-Answering Platform for Knowledge Graphs"
+      venue: "Proceedings of the ACM on Management of Data 1(1), 1–25 (SIGMOD 2023)"
+      year: 2023
+      links: [ { l: DOI, u: "https://doi.org/10.1145/3588911" }, { l: Code, u: "https://github.com/CoDS-GCS/KGQAn" } ]
+
+- group: Data systems foundations
+  slug: foundations
+  items:
+    - id: D1
+      authors: "Mossad Helali*, Niki Monjazeb*, Shubham Vashisth*, Philippe Carrier*, Ahmed Helal*, Antonio Cavalcante, Khaled Ammar, Katja Hose, Essam Mansour"
+      title: "KGLiDS: A Platform for Semantic Abstraction, Linking, and Automation of Data Science"
+      venue: "IEEE ICDE"
+      year: 2024
+      links: [ { l: IEEE, u: "https://ieeexplore.ieee.org/document/10597753" }, { l: Code, u: "https://github.com/CoDS-GCS/kglids" } ]
+    - id: D2
+      authors: "Hussein Abdallah*, Waleed Afandi*, Panos Kalnis, Essam Mansour"
+      title: "Task-Oriented GNNs Training on Large Knowledge Graphs for Accurate and Efficient Modeling"
+      venue: "IEEE ICDE"
+      year: 2024
+      links: [ { l: IEEE, u: "https://ieeexplore.ieee.org/document/10597998" }, { l: Code, u: "https://github.com/CoDS-GCS/KGNET" } ]
+    - id: D3
+      authors: "Mossad Helali*, Essam Mansour, Ibrahim Abdelaziz, Julian Dolby, Kavitha Srinivas"
+      title: "A Scalable AutoML Approach Based on Graph Neural Networks"
+      venue: "PVLDB 15(1), 2428–2436 (VLDB 2022)"
+      year: 2022
+      links: [ { l: arXiv, u: "https://arxiv.org/abs/2111.00083" }, { l: Code, u: "https://github.com/CoDS-GCS/kgpip-public" } ]
+    - id: D4
+      authors: "Essam Mansour, Kavitha Srinivas, Katja Hose"
+      title: "Federated Data Science to Break Down Silos"
+      venue: "ACM SIGMOD Record 50(4), 16–22"
+      year: 2022
+      links: [ { l: arXiv, u: "https://arxiv.org/abs/2111.13186" } ]
+    - id: D5
+      authors: "Ibrahim Abdelaziz*, Essam Mansour, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis"
+      title: "Lusail: A System for Querying Linked Data at Scale"
+      venue: "PVLDB 11(4), 485–498 (VLDB 2018)"
+      year: 2018
+      links: [ { l: Project, u: "/research/lusail/" } ]
+    - id: D6
+      authors: "Rebecca Taft, Essam Mansour, Marco Serafini, Jennie Duggan, Aaron J. Elmore, Ashraf Aboulnaga, Andrew Pavlo, Michael Stonebraker"
+      title: "E-Store: Fine-Grained Elastic Partitioning for Distributed Transaction Processing"
+      venue: "PVLDB 8(3), 245–256 (VLDB 2015)"
+      year: 2015
+      links: [ { l: PDF, u: "/publications/paper/vldb15-estore-essam.pdf" }, { l: Project, u: "/research/estore/" } ]

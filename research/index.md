@@ -1,48 +1,36 @@
 ---
-layout: default
-title: Research Projects
+title: Research
+description: "The CoDS research program on enterprise-aware agents: governed agent memory, action contracts, validation of agent-generated code, agent security and graph foundation models. Funded by NSERC Discovery and CREATE."
 ---
+# Research
 
-# Research Projects
+<p class="lede">Enterprise-aware agents: moving agents from individual intelligence to organizational intelligence.</p>
 
-![crosscloud](/research/essamWordCloud.jpg)
+The barrier to enterprise agentic deployment is not model capability. Our SIGMOD 2027 study established this empirically across nine production agent frameworks at fixed LLM and task: orchestration alone changes latency by over 60×, schema-constrained planning costs up to 32 accuracy points through parsing failures rather than reasoning failures, and communication topology swings coordination success from above 90% to below 30%. Not one framework supports controlled knowledge revision. **Architecture, not only model capability, governs agent performance.** That is a data and systems problem, and we attack it at the data layer across five coupled thrusts.
 
+The program is funded through 2030 by NSERC Discovery and NSERC CREATE and released open source through the [CoDS-GCS](https://github.com/CoDS-GCS) organization. Every system replaces LLM self-judgment with checks against the actual data. See the [systems and benchmarks](/systems/) and the [people](/team/) behind each thrust.
 
-## The Data Civilizer System
+{% for t in site.data.thrusts %}
+<section class="thrust" id="{{ t.id }}">
+  <span class="num">THRUST {{ forloop.index }}</span>
+  <h2>{{ t.title }}</h2>
+  <p>{{ t.text }}</p>
+  <p class="people"><strong>Team:</strong>
+  {%- for p in t.people %} {{ p.name }} ({{ p.role }}){% unless forloop.last %};{% endunless %}{% endfor %}</p>
+  {%- if t.systems != "" %}<p class="people"><strong>Related systems:</strong> {{ t.systems }}</p>{% endif %}
+</section>
+{% endfor %}
 
-The Data Civilizer System is to ease the pain faced in analyzing data “in the wild”. Data Civilizer is an end-to-end big data management system with components for data discovery, data integration and stitching, data cleaning, and querying data from a large variety of storage engines, running in large enterprises. The first thing needed for data discovery is a crawler, which can locate possible data sets, either inside the firewall or outside.  We propose to explore a human-assisted package that will accept hints on places to look.  It will also accept credentials to access possible databases.  Some organizations already have metadata repositories that we can hopefully access.  Using a combination of such techniques we propose to build up our registry of data sources and their contents. [Read more](/research/dc/)
+## Industry and research collaborations
 
-## Managing Linked Data at Scale: Querying, Integrating, and Sharing
+<ul>
+<li><strong>IBM Research (2020 to present).</strong> Multi-agent AI systems for conversational question answering and enterprise data science assistance, with Ibrahim Abdelaziz and Kavitha Srinivas. Earlier work yielded KGpip.</li>
+<li><strong>Google (2024 to 2025).</strong> RAG-based systems using knowledge graphs and Gemini to automate exploratory data analysis. Outcome: RAGvis (EMNLP 2025), released in Google's GitHub organization.</li>
+<li><strong>National Research Council Canada (2025 to 2028).</strong> Secure knowledge sharing and agentic threat detection for the digitized construction industry.</li>
+<li><strong>National Bank of Canada (2023 to 2024)</strong> and <strong>RBC Borealis AI (2022 to 2023).</strong> LLM-based risk assessment, and a linked data science platform for feature discovery and automated data preparation.</li>
+<li><strong>MIT CSAIL (2013 to 2018).</strong> Technical lead on three joint projects with QCRI: E-Store, Data Civilizer and Solid.</li>
+</ul>
 
-This project aims to develop an efficient system and software tools to make it easy for users to share datasets with each other and integrate data available at geo-distributed engines. The RDF data model allows interlinking entities from different Web sources, where each dataset is independently maintained and accessed via a SPARQL endpoint. Subsequently various applications in life sciences, government open data, decentralized social networks, and Internet of Things, which need to query RDF graphs across geo-distributed and independent endpoints, have emerged. State-of-the-art federated RDF systems usually support a small number of data sources by utilizing schema information. They often cause unnecessary data retrieval and communications, leading to poor scalability and response time; these systems cannot support the need of these emerging applications to access tens to hundreds of geo-distributed RDF datasets. [Read more](/research/lusail/)
+## Earlier research
 
-
-
-## Elastic in-memory OLTP Systems
-
-
-On-line transaction processing (OLTP) database management systems
-(DBMSs) often serve time-varying workloads due to daily,
-weekly or seasonal fluctuations in demand, or because of rapid
-growth in demand due to a company’s business success. In addition,
-many OLTP workloads are heavily skewed to “hot” tuples
-or ranges of tuples. For example, the majority of NYSE volume
-involves only 40 stocks. To deal with such fluctuations, an OLTP
-DBMS needs to be elastic; that is, it must be able to expand and
-contract resources in response to load fluctuations and dynamically
-balance load as hot tuples vary over time. [Read more](/research/estore/)
-
-
-## Large-scale Analytics on Strings
-
-
-Stings are common datasets in a variety of applications such as bioinformatics,
-time series analysis, clustering, text editing, log analysis, and data compression. 
-There is an explosion in the production of string datasets. Analytics on strings are computationally demanding. Most of the existing solutions are not designed to utilize large computing infrastructures. Therefore, these solutions are limited to small datasets. [Read more](/research/starDB/)
-
- 
-
-
-
-
-
+The foundations of the current program, from federated linked data to knowledge graph platforms for data science, are collected under [foundational work](/systems/#foundational).

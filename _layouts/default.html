@@ -1,157 +1,109 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet >
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link rel="stylesheet" type="text/css" href="/css/style.css"-->
-			
-			<!-- Bootstrap -->
-			
-			<!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
-			
-			<meta name="keywords" content="Essam Mansour, Concordia University, Federated Data Science, PhD Scholarship, RDF, Linked Data,  QCRI, KAUST, Lusail, decentralized graphs, ERA, RACE, ACME, Solid, Solid Specification, Solid platform, Solid protocol, Crosscloud, EStore, string DB, suffix tree, Context-aware, re-decentralizing the web, distributed systems, databases">
-			
-			    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-			    <meta charset="utf-8">
-			    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- assign page_title = page.title | default: site.title -%}
+  {%- if page.home -%}
+    {%- capture full_title %}{{ page.title }}{% endcapture -%}
+  {%- else -%}
+    {%- capture full_title %}{{ page_title }} · {{ site.title }}{% endcapture -%}
+  {%- endif -%}
+  {%- assign page_desc = page.description | default: site.description | strip_newlines -%}
+  {%- assign canonical = page.url | replace: 'index.html', '' | absolute_url -%}
+  {%- assign og_image = page.image | default: '/images/og-card.jpg' | absolute_url -%}
+  <title>{{ full_title }}</title>
+  <meta name="description" content="{{ page_desc | escape }}">
+  <meta name="author" content="Essam Mansour">
+  <meta name="keywords" content="{{ page.keywords | default: 'Essam Mansour, Concordia University, CoDS Lab, agentic AI, agent memory, agent harness, multi-agent systems, knowledge graphs, LLM data systems, graph databases, agent security' }}">
+  <link rel="canonical" href="{{ canonical }}">
 
+  <meta property="og:type" content="{% if page.home %}profile{% else %}website{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ full_title | escape }}">
+  <meta property="og:description" content="{{ page_desc | escape }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ og_image }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Essam Mansour, Tenured Associate Professor at Concordia University, Head of the CoDS Lab">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ full_title | escape }}">
+  <meta name="twitter:description" content="{{ page_desc | escape }}">
+  <meta name="twitter:image" content="{{ og_image }}">
+  <meta name="color-scheme" content="light dark">
 
-			   <!--link rel="canonical" href="index.html"-->
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/css/site.css?v=2026-09">
+  <script>document.documentElement.className += ' js';</script>
+  {%- if page.home %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Essam Mansour",
+    "url": "https://emansour.com/",
+    "image": "https://emansour.com/images/essam-2024-light.jpg",
+    "jobTitle": "Associate Professor",
+    "worksFor": { "@type": "CollegeOrUniversity", "name": "Concordia University" },
+    "description": "Builds agents that operate safely on organizational data.",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=dqgckDgAAAAJ",
+      "https://dblp.org/pid/m/EssamMansour.html",
+      "https://github.com/CoDS-GCS",
+      "https://www.linkedin.com/in/emansour",
+      "https://discuss.systems/@emansour"
+    ]
+  }
+  </script>
+  {%- endif %}
+</head>
+<body{% if page.home %} class="home"{% endif %}>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="/">Essam Mansour</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        {%- assign nav = "research|Research,systems|Systems,publications|Publications,team|Team,service|Service,news|News,cv|CV,contact|Contact" | split: "," -%}
+        {%- for item in nav %}
+          {%- assign parts = item | split: "|" %}
+          <a href="/{{ parts[0] }}/"{% if page.url contains parts[0] %} aria-current="page"{% endif %}>{{ parts[1] }}</a>
+        {%- endfor %}
+      </nav>
+    </div>
+  </header>
 
-			        <meta name="author" content="Essam Mansour" />
-			        <meta name="description" content="Welcome
-I am an assistant professor in the Department of Computer-Science and Software Engineering at Concordia University in Montreal, and the head of the Concordia Data Systems (CoDS) lab. My research interests are in the broad areas of parallel/distributed systems, data management, and machine learning for developing federated data science platforms." />
-			
-			
-			        <link rel="stylesheet" href="/css/theme/css/bootstrap.cosmo.min.css" type="text/css"/>
-			    <link href="/css/theme/css/font-awesome.min.css" rel="stylesheet">
+  <main id="main"{% unless page.home %} class="wrap"{% endunless %}>
+    {{ content }}
+  </main>
 
-			    <link href="/css/theme/css/pygments/native.css" rel="stylesheet">
-			    <link rel="stylesheet" href="/css/theme/css/style.css" type="text/css"/>
-			        <link href="/css/extras/custom.css" rel="stylesheet">
-
-			        <link href="/blog/atom.xml" type="application/atom+xml" rel="alternate"
-			              title="Essam Mansour ATOM Feed"/>
-			
-			<link href="http://emansour.com/favicon.png" rel="icon">
-			
-			
-		{% include analytics.html %}
-		
-		</head>
-		<body>
-			
-	<!--nav class="navbar navbar-light navbar-fixed-top" style="background-color: #EEEEEE;" role="navigation"-->
-
-		<!--nav class="navbar navbar-light navbar-fixed-top" 
-		style="background-color: #932439; hover:background-color:#FFEF74;" 
-		role="navigation"-->
-		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-				<div class="container">
-			        <div class="navbar-header">
-			            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-			                <span class="sr-only">Toggle navigation</span>
-			                <span class="icon-bar"></span>
-			                <span class="icon-bar"></span>
-			                <span class="icon-bar"></span>
-			            </button>
-			            <a href="http://emansour.com/" class="navbar-brand">Essam Mansour</a>
-			        </div>
-			        <div class="collapse navbar-collapse navbar-ex1-collapse">
-			            <ul class="nav navbar-nav">
-							
-				        	<li><a href="/about">About</a></li>
-							<li><a href="/research">Research Projects</a></li>
-							<li><a href="/publications">Publications</a></li>
-							<li><a href="/contact">Contact</a></li>
-			                 
-			            </ul>
-			            <!--ul class="nav navbar-nav navbar-right">
-			              <li><a href="archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
-			            </ul-->
-			        </div>
-			        <!-- /.navbar-collapse -->
-			    </div>
-			</nav> <!-- /.navbar -->
-			<!-- Banner -->
-			<!-- End Banner -->
-			
-	<div class="container">
-	   <div class="row">
-		
-			
-		<div class="col-sm-3" id="sidebar">
-            <aside>
-				<img style="float: center;" alt="thumbnail of Essam" src="https://mansoure.github.io/images/essam_3.jpg" />
-				<p> </p>
-				<section class="well well-sm">
-					<ul class="list-group list-group-flush">
-					 <li class="list-group-item"><!--h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4-->
-             			<ul class="list-group" id="social">
-				 <li class="list-group-item"><a href="http://dblp.uni-trier.de/pers/hd/m/Mansour:Essam"><i class="fa fa-flask fa-lg"></i> DBLP</a></li>
-               			 <li class="list-group-item"><a href="https://github.com/orgs/CoDS-GCS"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
-				 <li class="list-group-item"><a href="https://www.linkedin.com/in/emansour"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
-				 <li class="list-group-item"><a rel="me" href="https://discuss.systems/@emansour"><i class="fa fa-group fa-lg"></i> Mastodon</a></li>
-               		 	 <!--li class="list-group-item"><a href="https://twitter.com/DrEssam_Mansour"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li-->
-               	   	 	 <li class="list-group-item"><a href="https://scholar.google.com/citations?user=dqgckDgAAAAJ&hl=en"><i class="fa fa-graduation-cap fa-lg"></i> Google Scholar</a></li>
-				 <li class="list-group-item"><a href="http://dl.acm.org/author_page.cfm?id=81100029928&cfid=676677292&cftoken=63220562"><i class="fa fa-flask fa-lg"></i> ACM Digital Library</a></li>
-              	  		 <li class="list-group-item"><i class="fa fa-envelope fa-lg"></i> essam.mansour AT concordia.ca</li>
-				</ul>
-           		 	</li>
-
-    			</ul>
-				</section>
-				
-			<section class="well well-sm">	
-				<h4>Latest News</h4>
-				<ul class="posts">
-				  {% for post in site.posts %}
-				    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-				  {% endfor %}
-				</ul>
-			</section>
-			
-			<section class="well well-sm">	
-				<li class="list-group-item"><h4><i class="fa fa-twitter fa-lg"></i><span class="icon-label">Latest Tweets</span></h4></li>
-				    <div id="twitter_timeline">
-						<a class="twitter-timeline" data-chrome="transparent noborders noheader nofooter noscrollbar"
-      height="250" width="400" data-lang="en"  href="https://twitter.com/DrEssam_Mansour">Tweets by DrEssam_Mansour</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-				        
-				    </div>
-					
-							
-			</section>
-			
-            </aside>
-        </div>
-			
-		  <div class="col-sm-9">
-		    <section id="content" class="body">
-             <div class="entry-content">
-		         		
-				 {{ content }}
-			
-			</div><!-- /.container -->
-		  </section>
-		</div>
-			
-	 </div>
-  </div>
-			
-			
-			<!--footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-				</ul>
-			</footer-->
-			
-			<script src="/css/theme/js/jquery.min.js"></script>
-
-			<!-- Include all compiled plugins (below), or include individual files as needed -->
-			<script src="/css/theme/js/bootstrap.min.js"></script>	
-				
-				
-		</body>
-	</html>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>
+        <strong>Essam Mansour</strong> · Tenured Associate Professor, Department of Computer Science and Software Engineering,
+        <a href="https://www.concordia.ca/">Concordia University</a> · Head of the <a href="https://cods-gcs.github.io">CoDS Lab</a>
+      </p>
+      <p class="links">
+        <a href="/cv/mansour-cv.pdf">CV (PDF)</a>
+        <a href="https://scholar.google.com/citations?user=dqgckDgAAAAJ">Google Scholar</a>
+        <a href="https://dblp.org/pid/m/EssamMansour.html">DBLP</a>
+        <a href="https://github.com/CoDS-GCS">GitHub</a>
+        <a href="https://www.linkedin.com/in/emansour">LinkedIn</a>
+        <a rel="me" href="https://discuss.systems/@emansour">Mastodon</a>
+      </p>
+      <p class="fine">Last updated {{ site.time | date: "%B %Y" }}.</p>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      var b = document.querySelector('.menu-btn'), n = document.getElementById('site-nav');
+      if (!b || !n) return;
+      b.addEventListener('click', function () {
+        var open = n.classList.toggle('open');
+        b.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>

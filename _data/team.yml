@@ -1,0 +1,25 @@
+postdoc:
+  - name: Dr. Abdelghny Orogat
+    topic: "The role of agentic AI in enterprise systems; governed agent memory"
+    until: "2025 to 2026"
+phd:
+  - { name: Ahmed Aly, topic: "Agent security and threat detection (with Amr Youssef)", until: "to 2027" }
+  - { name: Waleed Afandi, topic: "Graph foundation models for agentic reasoning", until: "to 2027" }
+  - { name: Yomna Gharib, topic: "Agent security", until: "2026 to 2030" }
+  - { name: Loubna Guelmani, topic: "Agent harness and long-term memory", until: "2026 to 2030" }
+  - { name: Qizhi Wang, topic: "Validation of agent-generated code", until: "2026 to 2030" }
+msc:
+  - { name: Farbod Aminnezhad, topic: "Action contracts and governed mediation", until: "2026 to 2028" }
+
+alumni:
+  - { name: Hussein Abdallah, degree: PhD, year: "2025", where: "Postdoctoral Fellow, Mila–McGill" }
+  - { name: Mossad Helali, degree: PhD, year: "2025", where: "AI Applied Scientist, Verily (Alphabet)" }
+  - { name: Saeed Fathollahzadeh, degree: PhD, year: "2026", where: "Postdoctoral Scholar, University of Waterloo", note: "co-supervised with Matthias Boehm" }
+  - { name: Reham Omar, degree: PhD, year: "2026", where: "" }  # TODO: placement unconfirmed; leave blank until confirmed.
+  - { name: Omijkumar Mangukiya, degree: MSc, year: "", where: "IBM Canada" }  # TODO: graduation year
+  - { name: Niki Monjazeb, degree: MSc, year: "", where: "Desjardins" }  # TODO: graduation year
+  - { name: Shubham Vashisth, degree: MSc, year: "2023", where: "PhD student, McGill" }
+  - { name: Ishika Dhall, degree: MSc, year: "2023", where: "National Bank of Canada" }
+  - { name: Ahmed Helal, degree: MSc, year: "2021", where: "Snowflake" }
+  - { name: Philippe Carrier, degree: Undergraduate, year: "2023", where: "Software Engineer, Amazon" }
+  - { name: Yasaman Sabbagh, degree: Undergraduate, year: "2022", where: "PhD student, McGill" }

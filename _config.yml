@@ -1,3 +1,29 @@
-name: Essam Mansour's website
+title: Essam Mansour
+url: https://emansour.com
+baseurl: ""
+description: >-
+  Essam Mansour, Tenured Associate Professor at Concordia University and Head of the CoDS Lab.
+  He builds agents that operate safely on organizational data: governed memory, action contracts,
+  validation of agent-generated code, and agent security.
+author: Essam Mansour
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+# Keep source material, drafts and tooling out of the published site.
+exclude:
+  - README.md
+  - _source
+  - css/theme
+  - blog/atom.xml
+  - sitemap.xml
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
