@@ -4,6 +4,12 @@
 
 - date: 2026-09-19
   precision: month
+  title: "MAFBench accepted at SIGMOD 2027"
+  body: "“Architectural Design, Not Only Model Intelligence, Governs Multi-Agent LLM Performance”: a controlled study of nine multi-agent LLM frameworks at fixed LLM and task, yielding an architectural taxonomy over five dimensions and six evidence-based design principles."
+  link: https://arxiv.org/abs/2602.03128
+
+- date: 2026-09-19
+  precision: month
   title: "Demonstration Chair of VLDB 2027"
   body: "Essam Mansour will serve as Demonstration Chair for VLDB 2027, alongside his term as General Chair of IEEE ICDE 2026."
   link: /service/
@@ -38,12 +44,6 @@
   title: "Dagstuhl Seminar 26161: Managing Vector Data for RAG"
   body: "Invited participant and technical lead; led the Agentic Systems cross-topic session."
   link: /service/
-
-- date: 2026-02-01
-  precision: month
-  title: "MAFBench: architecture, not only model intelligence, governs multi-agent LLM performance"
-  body: "Controlled study of nine agent frameworks, accepted at SIGMOD 2027."
-  link: https://arxiv.org/abs/2602.03128
 
 - date: 2026-01-01
   precision: year

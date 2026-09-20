@@ -42,12 +42,12 @@ main > p:not([class]), main > ul:not([class]), main > ol:not([class]) { max-widt
 .site-header { background: var(--band); border-bottom: 2px solid var(--accent); position: sticky; top: 0; z-index: 5; }
 .home .site-header { border-bottom: 0; }
 .bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 2.6rem; flex-wrap: wrap; }
-.brand { font-family: var(--serif); font-weight: 700; font-size: 1.1rem; color: var(--on-band); text-decoration: none; }
-.site-nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
-.site-nav a { color: var(--on-band-muted); text-decoration: none; font-size: .93rem; padding: .3rem 0; border-bottom: 2px solid transparent; }
+.brand { font-family: var(--serif); font-weight: 700; font-size: 1.3rem; letter-spacing: -.01em; color: var(--on-band); text-decoration: none; white-space: nowrap; }
+.site-nav { display: flex; gap: 1.05rem; flex-wrap: wrap; align-items: center; }
+.site-nav a { color: var(--on-band-muted); text-decoration: none; font-size: .845rem; letter-spacing: .01em; padding: .3rem 0; border-bottom: 2px solid transparent; }
 .site-nav a:hover { color: var(--on-band); }
 .site-nav a[aria-current="page"] { color: var(--on-band); border-bottom-color: var(--accent); }
-.menu-btn { display: none; font: inherit; font-size: .93rem; background: none; color: var(--on-band); border: 1px solid rgba(23,27,38,.35); border-radius: 6px; padding: .3rem .8rem; cursor: pointer; }
+.menu-btn { display: none; font: inherit; font-size: .88rem; background: none; color: var(--on-band); border: 1px solid rgba(23,27,38,.35); border-radius: 6px; padding: .3rem .8rem; cursor: pointer; }
 
 /* hero: compact band, photo matched to the height of the text */
 .hero-band { background: var(--band); color: var(--on-band); }
