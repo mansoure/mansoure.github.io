@@ -10,7 +10,7 @@ postdoc:
 
 phd:
   - { name: Ahmed Aly, role: PhD, topic: "Agent security (with Amr Youssef)", until: "to 2027", work: "OCR-APT, MEGR-APT" }
-  - { name: Waleed Afandi, role: PhD, topic: "Graph foundation models for agents", until: "to 2027", work: "KG-WISE, KG-CORE, KGNet" }
+  - { name: Waleed Afandi, role: PhD, topic: "Graph foundation models for agents", until: "to 2027", work: "KG-WISE, KGNet" }
   - { name: Yomna Gharib, role: PhD, topic: "Agentic security", until: "2026 to 2030", work: "" }
   - { name: Loubna Guelmani, role: PhD, topic: "Agent harness and long-term memory", until: "2026 to 2030", work: "" }
   - { name: Qizhi Wang, role: PhD, topic: "Validation of agent-generated code", until: "2026 to 2030", work: "" }
@@ -24,7 +24,7 @@ phd_alumni:
     year: "2025"
     honour: "thesis graded Outstanding"
     where: "Postdoctoral Fellow, Mila–McGill"
-    work: "KGNet (ICDE 2024), KG-WISE (ICDE 2026), KG-CORE (SIGMOD 2027), LLM–GNN open-world QA (EACL 2026)"
+    work: "KGNet (ICDE 2024), KG-WISE (ICDE 2026), LLM–GNN open-world QA (EACL 2026)"
   - name: Mossad Helali
     year: "2025"
     honour: "thesis graded Excellent"

@@ -34,4 +34,4 @@
   short: "Motif-centric inference over enterprise knowledge graphs, giving agents structured recall at scale."
   people:
     - { name: "Waleed Afandi", role: "PhD" }
-  systems: "KGNet, KG-WISE, KG-CORE"
+  systems: "KGNet, KG-WISE"

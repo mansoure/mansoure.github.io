@@ -56,30 +56,24 @@
       year: 2026
       links: [ { l: arXiv, u: "https://arxiv.org/abs/2603.04545" } ]
     - id: L4
-      authors: "Waleed Afandi*, Hussein Abdallah*, Ashraf Aboulnaga, Essam Mansour"
-      title: "KG-CORE: Scalable Motif-Centric Inference for Knowledge Graph Foundation Models"
-      venue: "Proceedings of the ACM on Management of Data (SIGMOD 2027), major revision"
-      year: 2027
-      links: []
-    - id: L5
       authors: "Mossad Helali*, Yutai Luo, Tae Jun Ham, Jim Plotts, Ashwin Chaugule, Jichuan Chang, Parthasarathy Ranganathan, Essam Mansour"
       title: "Beyond Large Models: Reliable and Cost-Effective Exploratory Data Analysis via Knowledge-Grounded RAG"
       venue: "EMNLP, main conference"
       year: 2025
       links: [ { l: Paper, u: "https://aclanthology.org/2025.emnlp-main.836.pdf" }, { l: Code, u: "https://github.com/google/ragvis" } ]
-    - id: L6
+    - id: L5
       authors: "Saeed Fathollahzadeh*, Essam Mansour, Matthias Boehm"
       title: "CatDB: Data-catalog-guided, LLM-based Generation of Data-centric ML Pipelines"
       venue: "PVLDB 18(4) (VLDB 2025)"
       year: 2025
       links: [ { l: Paper, u: "https://www.vldb.org/pvldb/vol18/p2639-fathollahzadeh.pdf" }, { l: Code, u: "https://github.com/CoDS-GCS/CatDB" } ]
-    - id: L7
+    - id: L6
       authors: "Reham Omar*, Omij Mangukiya*, Essam Mansour"
       title: "Dialogue Benchmark Generation from Knowledge Graphs with Cost-Effective Retrieval-Augmented LLMs"
       venue: "Proceedings of the ACM on Management of Data (SIGMOD)"
       year: 2025
       links: [ { l: DOI, u: "https://dl.acm.org/doi/10.1145/3709681" }, { l: Code, u: "https://github.com/CoDS-GCS/Chatty-Gen" } ]
-    - id: L8
+    - id: L7
       authors: "Reham Omar*, Ishika Dhall*, Panos Kalnis, Essam Mansour"
       title: "A Universal Question-Answering Platform for Knowledge Graphs"
       venue: "Proceedings of the ACM on Management of Data 1(1), 1–25 (SIGMOD 2023)"
