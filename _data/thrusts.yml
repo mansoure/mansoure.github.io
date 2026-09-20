@@ -26,12 +26,12 @@
   short: "Multi-agent attack surfaces, memory poisoning and prompt injection. Builds on OCR-APT and MEGR-APT."
   people:
     - { name: "Yomna Gharib", role: "PhD" }
-    - { name: "Ahmed Aly", role: "PhD, with Amr Youssef" }
+    - { name: "Ahmed Aly", role: "PhD, co-supervised with Amr Youssef" }
   systems: "OCR-APT, MEGR-APT"
 - id: gfm
   title: Graph foundation models for agentic reasoning
   text: "Motif-centric inference over large enterprise knowledge graphs gives agents structured recall at scale. This thrust builds on our GNN-enabled knowledge graph engine, KGNet, and on LLM-guided query-aware inference."
   short: "Motif-centric inference over enterprise knowledge graphs, giving agents structured recall at scale."
   people:
-    - { name: "Waleed Afandi", role: "PhD" }
+    - { name: "Waleed Afandi", role: "PhD, co-supervised with Ashraf Aboulnaga" }
   systems: "KGNet, KG-WISE"

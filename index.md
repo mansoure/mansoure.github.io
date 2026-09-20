@@ -2,7 +2,7 @@
 layout: default
 home: true
 title: "Essam Mansour: agents that operate safely on organizational data"
-description: "Essam Mansour, Tenured Associate Professor at Concordia University and Head of the CoDS Lab. General Chair of IEEE ICDE 2026. Builds agents that operate safely on organizational data, bringing a data systems and knowledge graph foundation to automating enterprise operations."
+description: "Essam Mansour, Tenured Associate Professor at Concordia University and Head of the CoDS Lab. General Chair of IEEE ICDE 2026. Builds AI agents that operate safely on organizational data, grounding their architecture in data systems and knowledge graphs to automate enterprise operations."
 ---
 <div class="hero-band">
 <section class="hero wrap">
@@ -10,7 +10,7 @@ description: "Essam Mansour, Tenured Associate Professor at Concordia University
     <p class="eyebrow">Tenured Associate Professor · Concordia University</p>
     <h1>Essam Mansour</h1>
     <p class="role">Head, Concordia Data Systems (CoDS) Lab · Montreal</p>
-    <p class="position">Essam Mansour builds agents that operate safely on organizational data. Architecture, not only model capability, decides whether an enterprise agent works. He brings a data systems and knowledge graph foundation to automating enterprise operations.</p>
+    <p class="position">Essam Mansour builds AI agents that operate safely on organizational data. Architecture, not only LLM capability, decides whether an enterprise agent works. He grounds that architecture in data systems and knowledge graphs, to automate enterprise operations.</p>
     <ul class="status" aria-label="Current roles">
       <li><strong>General Chair</strong>, IEEE ICDE 2026</li>
       <li><strong>Editor</strong>, ACM SIGMOD Blog</li>

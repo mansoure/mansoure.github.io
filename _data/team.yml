@@ -9,8 +9,8 @@ postdoc:
     work: "MAFBench, MemState, Chatty-KG"
 
 phd:
-  - { name: Ahmed Aly, role: PhD, topic: "Agent security (with Amr Youssef)", until: "to 2027", work: "OCR-APT, MEGR-APT" }
-  - { name: Waleed Afandi, role: PhD, topic: "Graph foundation models for agents", until: "to 2027", work: "KG-WISE, KGNet" }
+  - { name: Ahmed Aly, role: PhD, topic: "Agent security (co-supervised with Amr Youssef)", until: "to 2027", work: "OCR-APT, MEGR-APT" }
+  - { name: Waleed Afandi, role: PhD, topic: "Graph foundation models for agents (co-supervised with Ashraf Aboulnaga)", until: "to 2027", work: "KG-WISE, KGNet" }
   - { name: Yomna Gharib, role: PhD, topic: "Agentic security", until: "2026 to 2030", work: "" }
   - { name: Loubna Guelmani, role: PhD, topic: "Agent harness and long-term memory", until: "2026 to 2030", work: "" }
   - { name: Qizhi Wang, role: PhD, topic: "Validation of agent-generated code", until: "2026 to 2030", work: "" }
