@@ -22,7 +22,6 @@ description: "Essam Mansour, Tenured Associate Professor at Concordia University
       <li><a href="https://dblp.org/pid/m/EssamMansour.html">DBLP</a></li>
       <li><a href="https://github.com/CoDS-GCS">GitHub</a></li>
       <li><a href="https://www.linkedin.com/in/emansour">LinkedIn</a></li>
-      <li><a rel="me" href="https://discuss.systems/@emansour">Mastodon</a></li>
     </ul>
   </div>
   <img class="hero-photo" src="/images/essam-2024-light.jpg" width="720" height="851" alt="Portrait of Essam Mansour" fetchpriority="high">
