@@ -34,8 +34,4 @@ Approximately CAD 3M in competitive funding from federal and industry sources.
 - NRC Canada, “Cybersecurity Framework for the Digitized Construction Industry.” Co-investigator, 2025 to 2028.
 - Concordia University Faculty Research Support Funds, PI, 2020 to 2027. MITACS partnerships with Qohash, National Bank of Canada and RBC Borealis AI, PI, 2022 to 2024.
 
-## Languages
-
-English and Arabic (fluent); French (working proficiency).
-
 See also the [publications](/publications/), [service and leadership](/service/) and [team](/team/) pages.
