@@ -1,6 +1,6 @@
 ---
 title: Service and Leadership
-description: "Conference leadership, program committees, editorial roles, awards and invited talks by Essam Mansour, including General Chair of IEEE ICDE 2026 and Editor of the ACM SIGMOD Blog."
+description: "Conference leadership, program committees, editorial roles, awards and invited talks by Essam Mansour, including General Chair of IEEE ICDE 2026, Demonstration Chair of VLDB 2027 and Editor of the ACM SIGMOD Blog."
 ---
 # Service and leadership
 
@@ -8,6 +8,7 @@ description: "Conference leadership, program committees, editorial roles, awards
 
 <dl class="kv">
   <dt>2026</dt><dd><strong>General Chair, IEEE ICDE 2026</strong> (Montreal, May 2026), the flagship data engineering conference, with Fei Chiang.</dd>
+  <dt>2027</dt><dd><strong>Demonstration Chair, VLDB 2027.</strong></dd>
   <dt>Ongoing</dt><dd><strong>Editor, ACM SIGMOD Blog.</strong></dd>
   <dt>April 2026</dt><dd><strong>Dagstuhl Seminar 26161</strong>, “Managing Vector Data for RAG”. Invited participant and technical lead; led the <em>Agentic Systems</em> cross-topic session and delivered a Gong Show talk.</dd>
   <dt>May 2026</dt><dd><strong>ICDE 2026 panel</strong>, “What can agents do for databases?”, with Fatma Özcan (moderator), Wenjie Zhang, Aditya Parameswaran and Bolin Ding.</dd>
@@ -16,15 +17,16 @@ description: "Conference leadership, program committees, editorial roles, awards
 
 ## Program committees
 
-- ACM SIGMOD: 2016, 2021, 2023 (associate editor), 2025 (demo committee)
-- VLDB / PVLDB: 2017 to 2026 ([2025](http://vldb.org/pvldb/volumes/18/review-board), [2024](http://vldb.org/pvldb/volumes/17/review-board), [2023](http://vldb.org/pvldb/volumes/16/review-board), [2021](https://vldb.org/2021/), [2020](https://vldb2020.org/pvldb.html), [2019](http://vldb.org/2019/?review-board), [2018](http://vldb2018.lncc.br/review-board.html), [2017](http://www.vldb.org/2017/review_board.php))
+- ACM SIGMOD: 2016, 2021, 2023 (associate editor), 2025 (demo committee), 2026, 2027
+- VLDB / PVLDB: 2017 to 2027 ([2025](http://vldb.org/pvldb/volumes/18/review-board), [2024](http://vldb.org/pvldb/volumes/17/review-board), [2023](http://vldb.org/pvldb/volumes/16/review-board), [2021](https://vldb.org/2021/), [2020](https://vldb2020.org/pvldb.html), [2019](http://vldb.org/2019/?review-board), [2018](http://vldb2018.lncc.br/review-board.html), [2017](http://www.vldb.org/2017/review_board.php))
 - IEEE ICDE: [2023](https://icde2023.ics.uci.edu/research-program-committee/), [2016](http://icde2016.fi/committees.php#tabular1)
 - The Web Conference 2023
 - [EDBT 2023](http://edbticdt2023.cs.uoi.gr/?contents=EDBT_Committee.html)
 - ISWC: [2022](https://iswc2022.semanticweb.org/index.php/research-track-pc/), [2021](https://iswc2021.semanticweb.org/research-track-pc)
 - KDD 2021
 
-<!-- TODO: confirm the ICDE, EDBT, ISWC and WWW years from 2024 to 2026 against the CV and add any missing PC memberships; the CV lists SIGMOD 2023 as "Associate Editor" whereas the previous site said "Meta-reviewer". -->
+<!-- TODO: confirm the ICDE, EDBT, ISWC and WWW years from 2024 to 2027 and add any missing PC memberships; the CV lists SIGMOD 2023 as "Associate Editor" whereas the previous site said "Meta-reviewer". -->
+<!-- NOTE: SIGMOD 2026/2027, PVLDB through 2027 and the VLDB 2027 Demonstration Chair role were supplied directly by Essam and are newer than cv_mansour_servicenow.tex — update the CV to match. -->
 
 ## Journals and proposals
 
