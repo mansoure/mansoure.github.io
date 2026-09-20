@@ -2,6 +2,13 @@
 # added the week it happens. precision: day | month | year controls how the date is shown.
 # Dates below come from the CV and arXiv identifiers; refine day/month where marked TODO.
 
+- date: 2026-09-19
+  precision: month
+  title: "Demonstration Chair of VLDB 2027"
+  body: "Essam Mansour will serve as Demonstration Chair for VLDB 2027, alongside his term as General Chair of IEEE ICDE 2026."
+  link: /service/
+  # TODO: set the month the appointment was announced if it was earlier than September 2026.
+
 - date: 2026-09-01
   precision: month
   title: "Three PhD students and one MSc student join CoDS"
