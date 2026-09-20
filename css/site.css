@@ -200,3 +200,9 @@ main .btn { color: var(--btn-ink); }
   .site-header, .site-footer, .menu-btn, .skip { display: none; }
   body { background: #fff; color: #000; font-size: 11pt; }
 }
+
+/* team */
+tbody th .sub { display: block; font-weight: 400; font-size: .82rem; color: var(--muted); margin-top: .15rem; }
+.cards.alumni { grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr)); }
+.cards.alumni .now { font-size: .95rem; color: var(--text); }
+.cards.alumni .who { font-weight: 400; margin-top: .35rem; padding-top: 0; }

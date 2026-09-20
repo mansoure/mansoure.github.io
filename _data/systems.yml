@@ -27,7 +27,7 @@
   group: agentic
   featured: true
   venue: VLDB 2026
-  desc: "LLM-assisted SQL rewriting over PostgreSQL, MySQL and DuckDB: templatizes workloads, infers rules from the catalog, verifies candidates on downsampled data. Up to 16× over native engines."
+  desc: "LLM-assisted SQL rewriting over PostgreSQL, MySQL and DuckDB: templatizes workloads, infers rules from the catalog, verifies candidates on downsampled data. Up to 16× over native engines and 22× over LLM baselines across eight benchmarks."
   code: https://github.com/CoDS-GCS/ReSequel
   paper: https://arxiv.org/abs/2606.20853
 - id: ocr-apt
@@ -82,7 +82,7 @@
   name: KGQAn
   group: foundational
   venue: SIGMOD 2023
-  desc: "Universal question answering over knowledge graphs."
+  desc: "Universal question answering over knowledge graphs, and GNN-based scalable AutoML with IBM Research."
   code: https://github.com/CoDS-GCS/KGQAn
   paper: https://doi.org/10.1145/3588911
 - id: kgpip

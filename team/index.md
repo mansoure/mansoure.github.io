@@ -1,6 +1,6 @@
 ---
 title: Team
-description: "Current members of the CoDS Lab at Concordia University, and alumni with their placements at Mila–McGill, IBM, Verily, Waterloo, National Bank of Canada, Desjardins and Snowflake."
+description: "Current members of the CoDS Lab at Concordia University, and graduated students with their current positions at Mila–McGill, Verily, the University of Waterloo, IBM, National Bank of Canada, Desjardins and Snowflake."
 ---
 # Team
 
@@ -10,25 +10,51 @@ description: "Current members of the CoDS Lab at Concordia University, and alumn
 
 <div class="table-wrap">
 <table>
-  <caption class="sr-only">Current lab members</caption>
-  <thead><tr><th scope="col">Name</th><th scope="col">Role</th><th scope="col">Topic</th><th scope="col">Expected completion</th></tr></thead>
+  <thead><tr><th scope="col">Name</th><th scope="col">Role</th><th scope="col">Topic</th><th scope="col">Expected</th></tr></thead>
   <tbody>
-  {%- for m in site.data.team.postdoc %}<tr><th scope="row">{{ m.name }}</th><td data-label="Role">Postdoctoral researcher</td><td data-label="Topic">{{ m.topic }}</td><td data-label="Expected completion">{{ m.until }}</td></tr>{% endfor %}
-  {%- for m in site.data.team.phd %}<tr><th scope="row">{{ m.name }}</th><td data-label="Role">PhD</td><td data-label="Topic">{{ m.topic }}</td><td data-label="Expected completion">{{ m.until }}</td></tr>{% endfor %}
-  {%- for m in site.data.team.msc %}<tr><th scope="row">{{ m.name }}</th><td data-label="Role">MSc</td><td data-label="Topic">{{ m.topic }}</td><td data-label="Expected completion">{{ m.until }}</td></tr>{% endfor %}
+  {%- assign current = site.data.team.postdoc | concat: site.data.team.phd | concat: site.data.team.msc %}
+  {%- for m in current %}
+  <tr>
+    <th scope="row">{{ m.name }}{% if m.work != "" %}<br><span class="sub">{{ m.work }}</span>{% endif %}</th>
+    <td data-label="Role">{{ m.role }}</td>
+    <td data-label="Topic">{{ m.topic }}</td>
+    <td data-label="Expected">{{ m.until }}</td>
+  </tr>
+  {%- endfor %}
   </tbody>
 </table>
 </div>
 <p class="small muted">Three PhD students and one MSc student joined in September 2026.</p>
 
-## Alumni and placements
+## Graduated PhD students
+
+<p>Where they are now, and what they built here.</p>
+
+<ul class="cards alumni">
+{%- for a in site.data.team.phd_alumni %}
+  <li class="card">
+    <span class="meta">PhD {{ a.year }}{% if a.honour %} · {{ a.honour }}{% endif %}</span>
+    <h3>{{ a.name }}</h3>
+    {%- if a.where != "" %}<p class="now"><strong>Now:</strong> {{ a.where }}</p>{% endif %}
+    <p class="who"><strong>At CoDS:</strong> {{ a.work }}</p>
+  </li>
+{%- endfor %}
+</ul>
+
+## Master's and undergraduate graduates
 
 <div class="table-wrap">
 <table>
-  <thead><tr><th scope="col">Name</th><th scope="col">Degree</th><th scope="col">Year</th><th scope="col">Now</th></tr></thead>
+  <thead><tr><th scope="col">Name</th><th scope="col">Degree</th><th scope="col">Year</th><th scope="col">Now</th><th scope="col">At CoDS</th></tr></thead>
   <tbody>
-  {%- for a in site.data.team.alumni %}
-  <tr><th scope="row">{{ a.name }}{% if a.note %}<br><span class="small muted" style="font-weight:400">{{ a.note }}</span>{% endif %}</th><td data-label="Degree">{{ a.degree }}</td><td data-label="Year">{{ a.year }}</td><td data-label="Now">{{ a.where }}</td></tr>
+  {%- for a in site.data.team.msc_alumni %}
+  <tr>
+    <th scope="row">{{ a.name }}</th>
+    <td data-label="Degree">{{ a.degree }}</td>
+    <td data-label="Year">{{ a.year }}</td>
+    <td data-label="Now">{{ a.where }}</td>
+    <td data-label="At CoDS">{{ a.work }}</td>
+  </tr>
   {%- endfor %}
   </tbody>
 </table>

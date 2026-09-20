@@ -1,25 +1,51 @@
+# Source: CV "Talent Development" section. `work` lists the systems and papers each person
+# authored with Essam Mansour, taken from the CV publication list — not inferred.
+
 postdoc:
   - name: Dr. Abdelghny Orogat
-    topic: "The role of agentic AI in enterprise systems; governed agent memory"
+    role: Postdoctoral researcher
+    topic: "The role of agentic AI in enterprise systems"
     until: "2025 to 2026"
-phd:
-  - { name: Ahmed Aly, topic: "Agent security and threat detection (with Amr Youssef)", until: "to 2027" }
-  - { name: Waleed Afandi, topic: "Graph foundation models for agentic reasoning", until: "to 2027" }
-  - { name: Yomna Gharib, topic: "Agent security", until: "2026 to 2030" }
-  - { name: Loubna Guelmani, topic: "Agent harness and long-term memory", until: "2026 to 2030" }
-  - { name: Qizhi Wang, topic: "Validation of agent-generated code", until: "2026 to 2030" }
-msc:
-  - { name: Farbod Aminnezhad, topic: "Action contracts and governed mediation", until: "2026 to 2028" }
+    work: "MAFBench, MemState, Chatty-KG"
 
-alumni:
-  - { name: Hussein Abdallah, degree: PhD, year: "2025", where: "Postdoctoral Fellow, Mila–McGill" }
-  - { name: Mossad Helali, degree: PhD, year: "2025", where: "AI Applied Scientist, Verily (Alphabet)" }
-  - { name: Saeed Fathollahzadeh, degree: PhD, year: "2026", where: "Postdoctoral Scholar, University of Waterloo", note: "co-supervised with Matthias Boehm" }
-  - { name: Reham Omar, degree: PhD, year: "2026", where: "" }  # TODO: placement unconfirmed; leave blank until confirmed.
-  - { name: Omijkumar Mangukiya, degree: MSc, year: "", where: "IBM Canada" }  # TODO: graduation year
-  - { name: Niki Monjazeb, degree: MSc, year: "", where: "Desjardins" }  # TODO: graduation year
-  - { name: Shubham Vashisth, degree: MSc, year: "2023", where: "PhD student, McGill" }
-  - { name: Ishika Dhall, degree: MSc, year: "2023", where: "National Bank of Canada" }
-  - { name: Ahmed Helal, degree: MSc, year: "2021", where: "Snowflake" }
-  - { name: Philippe Carrier, degree: Undergraduate, year: "2023", where: "Software Engineer, Amazon" }
-  - { name: Yasaman Sabbagh, degree: Undergraduate, year: "2022", where: "PhD student, McGill" }
+phd:
+  - { name: Ahmed Aly, role: PhD, topic: "Agent security (with Amr Youssef)", until: "to 2027", work: "OCR-APT, MEGR-APT" }
+  - { name: Waleed Afandi, role: PhD, topic: "Graph foundation models for agents", until: "to 2027", work: "KG-WISE, KG-CORE, KGNet" }
+  - { name: Yomna Gharib, role: PhD, topic: "Agentic security", until: "2026 to 2030", work: "" }
+  - { name: Loubna Guelmani, role: PhD, topic: "Agent harness and long-term memory", until: "2026 to 2030", work: "" }
+  - { name: Qizhi Wang, role: PhD, topic: "Validation of agent-generated code", until: "2026 to 2030", work: "" }
+
+msc:
+  - { name: Farbod Aminnezhad, role: MSc, topic: "Action contracts", until: "2026 to 2028", work: "" }
+
+# Graduated. `where` = current position per the CV. Leave blank rather than guess.
+phd_alumni:
+  - name: Hussein Abdallah
+    year: "2025"
+    honour: "thesis graded Outstanding"
+    where: "Postdoctoral Fellow, Mila–McGill"
+    work: "KGNet (ICDE 2024), KG-WISE (ICDE 2026), KG-CORE (SIGMOD 2027), LLM–GNN open-world QA (EACL 2026)"
+  - name: Mossad Helali
+    year: "2025"
+    honour: "thesis graded Excellent"
+    where: "AI Applied Scientist, Verily (Alphabet)"
+    work: "KGLiDS (ICDE 2024), RAGvis (EMNLP 2025), scalable AutoML with IBM Research (VLDB 2022)"
+  - name: Saeed Fathollahzadeh
+    year: "2026"
+    honour: "co-supervised with Matthias Boehm"
+    where: "Postdoctoral Scholar, Data Intelligence Lab, University of Waterloo"
+    work: "CatDB (VLDB 2025), ReSequel (VLDB 2026)"
+  - name: Reham Omar
+    year: "2026"
+    honour: "thesis graded Outstanding"
+    where: ""   # TODO: placement unconfirmed — left blank on purpose (see rebuild brief).
+    work: "KGQAn (SIGMOD 2023), Chatty-Gen (SIGMOD 2025), Chatty-KG (SIGMOD 2026)"
+
+msc_alumni:
+  - { name: Omijkumar Mangukiya, degree: MSc, year: "", where: "IBM Canada", work: "Chatty-Gen, Chatty-KG" }          # TODO: graduation year
+  - { name: Niki Monjazeb, degree: MSc, year: "", where: "Desjardins", work: "KGLiDS" }                                # TODO: graduation year
+  - { name: Shubham Vashisth, degree: MSc, year: "2023", where: "PhD student, McGill", work: "KGLiDS" }
+  - { name: Ishika Dhall, degree: MSc, year: "2023", where: "National Bank of Canada", work: "KGQAn" }
+  - { name: Ahmed Helal, degree: MSc, year: "2021", where: "Snowflake", work: "KGLiDS, KGLac demo (VLDB 2021)" }
+  - { name: Philippe Carrier, degree: Undergraduate, year: "2023", where: "Software Engineer, Amazon", work: "KGLiDS" }
+  - { name: Yasaman Sabbagh, degree: Undergraduate, year: "2022", where: "PhD student, McGill", work: "" }
