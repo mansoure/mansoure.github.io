@@ -1,18 +1,17 @@
 ---
 title: Research
 description: "The CoDS research program on enterprise-aware agents: governed agent memory, action contracts, validation of agent-generated code, agent security and graph foundation models. Funded by NSERC Discovery and CREATE."
+heading: "Research"
+lede: "Enterprise-aware agents: moving agents from individual intelligence to organizational intelligence."
 ---
-# Research
 
-<p class="lede">Enterprise-aware agents: moving agents from individual intelligence to organizational intelligence.</p>
 
-The barrier to enterprise agentic deployment is not model capability. Our SIGMOD 2027 study established this empirically across nine production agent frameworks at fixed LLM and task: orchestration alone changes latency by over 60×, schema-constrained planning costs up to 32 accuracy points through parsing failures rather than reasoning failures, and communication topology swings coordination success from above 90% to below 30%. Not one framework supports controlled knowledge revision. **Architecture, not only model capability, governs agent performance.** That is a data and systems problem, and we attack it at the data layer across five coupled thrusts.
+The barrier to enterprise agentic deployment is not model capability. Our SIGMOD 2027 study established this empirically across nine production agent frameworks at fixed LLM and task: orchestration alone changes latency by over 60×, schema-constrained planning costs up to 32 accuracy points through parsing failures rather than reasoning failures, and communication topology swings coordination success from above 90% to below 30%. Not one framework supports controlled knowledge revision. Architecture, not only model capability, governs agent performance. That is a data and systems problem, and we attack it at the data layer across five coupled thrusts.
 
 The active research platform is **GEMS** (Governed Enterprise Metadata for Agentic Systems), funded through 2030 by NSERC Discovery and NSERC CREATE and released open source through the [CoDS-GCS](https://github.com/CoDS-GCS) organization. It is staffed by five PhD students and one MSc student recruited specifically against these thrusts. Every system replaces LLM self-judgment with checks against the actual data. See the [systems and benchmarks](/systems/) and the [people](/team/) behind each thrust.
 
 {% for t in site.data.thrusts %}
 <section class="thrust" id="{{ t.id }}">
-  <span class="num">THRUST {{ forloop.index }}</span>
   <h2>{{ t.title }}</h2>
   <p>{{ t.text }}</p>
   <p class="people"><strong>Team:</strong>

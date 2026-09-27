@@ -3,10 +3,10 @@ title: CV
 description: "Curriculum vitae of Essam Mansour, Tenured Associate Professor at Concordia University and Head of the CoDS Lab: positions, education, funding and leadership. Downloadable PDF."
 redirect_from:
   - /about/
+heading: "Curriculum vitae"
 ---
-# Curriculum vitae
 
-<p class="actions"><a class="btn" href="/cv/mansour-cv.pdf">Download CV (PDF)</a> <span class="muted small">Last updated September 2026</span></p>
+<p><a href="/cv/mansour-cv.pdf"><strong>Download the full CV (PDF)</strong></a> <span class="sub">· last updated September 2026</span></p>
 
 ## Positions
 

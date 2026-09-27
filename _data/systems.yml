@@ -1,9 +1,11 @@
-# group: agentic | foundational. `featured: true` shows the card on the home page.
+# group: agentic | foundational. `featured: true` lists the system on the home page,
+# using `short` (one line) there and `desc` on the Systems page.
 - id: mafbench
   name: MAFBench
   group: agentic
   featured: true
   venue: SIGMOD 2027
+  short: "an evaluation of nine multi-agent LLM frameworks: five architectural dimensions, six design principles."
   desc: "Unified evaluation suite for multi-agent LLM frameworks, with an architectural taxonomy over five dimensions and a controlled study of nine frameworks. Yields six evidence-based design principles."
   code: https://github.com/CoDS-GCS/MAFBench
   paper: https://arxiv.org/abs/2602.03128
@@ -19,6 +21,7 @@
   group: agentic
   featured: true
   venue: SIGMOD 2026
+  short: "multi-agent conversational question answering over knowledge graphs; 39 to 80 F1 with the same LLM."
   desc: "Multi-agent system for on-demand conversational question answering over large knowledge graphs. Doubles accuracy (39 to 80 F1) with the same LLM under a better architecture."
   code: https://github.com/CoDS-GCS/Chatty-KG
   paper: https://arxiv.org/abs/2511.20940
@@ -27,6 +30,7 @@
   group: agentic
   featured: true
   venue: VLDB 2026
+  short: "LLM-assisted SQL rewriting, up to 16× over native engines."
   desc: "LLM-assisted SQL rewriting over PostgreSQL, MySQL and DuckDB: templatizes workloads, infers rules from the catalog, verifies candidates on downsampled data. Up to 16× over native engines and 22× over LLM baselines across eight benchmarks."
   code: https://github.com/CoDS-GCS/ReSequel
   paper: https://arxiv.org/abs/2606.20853
@@ -35,6 +39,7 @@
   group: agentic
   featured: true
   venue: CCS 2025
+  short: "advanced persistent threat stories reconstructed from audit logs."
   desc: "Reconstructs advanced persistent threat stories from audit logs using subgraph anomaly detection and LLMs, with hard-gating assertion validation."
   code: https://github.com/CoDS-GCS/OCR-APT
   paper: https://www.arxiv.org/abs/2510.15188
@@ -43,6 +48,7 @@
   group: agentic
   featured: true
   venue: EMNLP 2025 (main)
+  short: "knowledge-grounded RAG for exploratory data analysis and visualization."
   desc: "Knowledge-grounded RAG for exploratory data analysis and visualization; a reliable, cost-effective alternative to large-model EDA."
   note: "Released in Google's own GitHub organization."
   code: https://github.com/google/ragvis
@@ -52,6 +58,7 @@
   group: agentic
   featured: true
   venue: VLDB 2025
+  short: "catalog-guided, LLM-based generation of data-centric ML pipelines."
   desc: "Data-catalog-guided, LLM-based generator of data-centric ML pipelines, with iterative self-correction validated on the actual data."
   code: https://github.com/CoDS-GCS/CatDB
   paper: https://www.vldb.org/pvldb/vol18/p2639-fathollahzadeh.pdf

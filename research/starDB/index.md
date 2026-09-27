@@ -2,9 +2,11 @@
 layout: default
 title: Research Projects
 permalink: /research/starDB/
+heading: "Large-scale Analytics on Strings"
 ---
+<div class="prose" markdown="1">
 
-# Large-scale Analytics on Strings
+
 
 Stings are common datasets in a variety of applications such as bioinformatics,
 time series analysis, clustering, text editing, log analysis, and data compression. 
@@ -40,3 +42,5 @@ I was a co-supervisor for KAUST students, who contributed to this project.
 - Essam Mansour, Ahmed El-Roby, Aron Ahmadia, Panos Kalnis, Ashraf Aboulnaga. [RACE: a scalable and elastic parallel system for discovering repeats in very long sequences](http://dl.acm.org/citation.cfm?id=2536214&CFID=605881404&CFTOKEN=68506341). The Proceedings of the VLDB Endowment (PVLDB), 2013. [PDF](/publications/paper/vldb13-RACE-essam.pdf)
 
 - Essam Mansour, Amin Allam, Spiros Skiadopoulos, and Panos Kalnis. [ERA: Efficient Serial and Parallel Suffix Tree Construction for Very Long Strings](http://dl.acm.org/citation.cfm?id=2047490&CFID=605881404&CFTOKEN=68506341). In the volume 5 of Proceedings of the VLDB Endowment (PVLDB), 2011. [PDF](/publications/paper/vldb12-ERA-essam.pdf)
+
+</div>

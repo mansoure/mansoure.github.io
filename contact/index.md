@@ -1,8 +1,8 @@
 ---
 title: Contact
 description: "Contact Essam Mansour at Concordia University, and how to apply to the CoDS Lab for graduate study or postdoctoral research on agentic AI and data systems."
+heading: "Contact and recruitment"
 ---
-# Contact and recruitment
 
 ## Contact
 

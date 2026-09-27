@@ -2,9 +2,11 @@
 layout: default
 title: Research Projects
 permalink: /research/estore/
+heading: "Elastic in-memory OLTP Systems"
 ---
+<div class="prose" markdown="1">
 
-# Elastic in-memory OLTP Systems
+
 
 On-line transaction processing (OLTP) database management systems
 (DBMSs) often serve time-varying workloads due to daily,
@@ -38,3 +40,5 @@ of the server.
 - Rebecca Taft, Essam Mansour, Marco Serafini, Jennie Duggan, Aaron J. Elmore, Ashraf Aboulnaga, Andrew Pavlo, Michael Stonebraker: [E-Store: Fine-Grained Elastic Partitioning for Distributed Transaction Processing](http://dl.acm.org/citation.cfm?id=2735514&CFID=605881404&CFTOKEN=68506341). The Proceedings of the VLDB Endowment (PVLDB) 8(3), 2014. [PDF](/publications/paper/vldb15-estore-essam.pdf)
 
 - Marco Serafini, Essam Mansour, Ashraf Aboulnaga, Kenneth Salem, Taha Rafiq, Umar Farooq Minhas: [Accordion: Elastic Scalability for Database Systems Supporting Distributed Transactions](http://dl.acm.org/citation.cfm?id=2732979&CFID=605881404&CFTOKEN=68506341). The Proceedings of the VLDB Endowment (PVLDB) 7(12), 2014. [PDF](/publications/paper/vldb14-Accordion-essam.pdf)
+
+</div>

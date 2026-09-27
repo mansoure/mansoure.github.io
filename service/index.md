@@ -1,8 +1,8 @@
 ---
 title: Service and Leadership
 description: "Conference leadership, program committees, editorial roles, awards and invited talks by Essam Mansour, including General Chair of IEEE ICDE 2026, Demonstration Chair of VLDB 2027 and Editor of the ACM SIGMOD Blog."
+heading: "Service and leadership"
 ---
-# Service and leadership
 
 ## Leadership
 

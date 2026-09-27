@@ -1,64 +1,54 @@
 ---
 title: Team
 description: "Current members of the CoDS Lab at Concordia University, and graduated students with their current positions at Mila–McGill, Verily, the University of Waterloo, IBM, National Bank of Canada, Desjardins and Snowflake."
+heading: "Team"
+lede: "The Concordia Data Systems (CoDS) Lab: one postdoctoral researcher, five PhD students and one MSc student, each attached to a thrust of the research program."
 ---
-# Team
 
-<p class="lede">The Concordia Data Systems (CoDS) Lab: one postdoctoral researcher, five PhD students and one MSc student, each attached to a thrust of the <a href="/research/">research program</a>.</p>
+{%- comment %} Topic strings may end in "(co-supervised with X)"; that part is shown on its own line. {% endcomment %}
 
 ## Current members
 
-<div class="table-wrap">
-<table>
-  <thead><tr><th scope="col">Name</th><th scope="col">Role</th><th scope="col">Topic</th><th scope="col">Expected</th></tr></thead>
-  <tbody>
-  {%- assign current = site.data.team.postdoc | concat: site.data.team.phd | concat: site.data.team.msc %}
-  {%- for m in current %}
-  <tr>
-    <th scope="row">{{ m.name }}{% if m.work != "" %}<br><span class="sub">{{ m.work }}</span>{% endif %}</th>
-    <td data-label="Role">{{ m.role }}</td>
-    <td data-label="Topic">{{ m.topic }}</td>
-    <td data-label="Expected">{{ m.until }}</td>
-  </tr>
-  {%- endfor %}
-  </tbody>
-</table>
-</div>
-<p class="small muted">Three PhD students and one MSc student joined in September 2026.</p>
+{% assign groups = "postdoc|Postdoctoral researcher,phd|PhD students,msc|Master’s student" | split: "," %}
+{%- for g in groups %}
+{%- assign gp = g | split: "|" %}
+<h3>{{ gp[1] }}</h3>
+<ul class="rows people">
+{%- for m in site.data.team[gp[0]] %}
+  {%- assign tp = m.topic | split: " (co-supervised with " %}
+  <li>
+    <span class="name">{{ m.name }}</span>
+    <span>{{ tp[0] }}{% if tp[1] %}<span class="d">Co-supervised with {{ tp[1] | remove: ")" }}</span>{% endif %}{% if m.work != "" %}<span class="d">Work: {{ m.work }}</span>{% endif %}</span>
+    <span class="r">{{ m.until }}</span>
+  </li>
+{%- endfor %}
+</ul>
+{%- endfor %}
+<p class="small sub">Three PhD students and one MSc student joined in September 2026.</p>
 
 ## Graduated PhD students
 
-<p>Where they are now, and what they built here.</p>
-
-<ul class="cards alumni">
+<ul class="rows alumni">
 {%- for a in site.data.team.phd_alumni %}
-  <li class="card">
-    <span class="meta">PhD {{ a.year }}{% if a.honour %} · {{ a.honour }}{% endif %}</span>
-    <h3>{{ a.name }}</h3>
-    {%- if a.where != "" %}<p class="now"><strong>Now:</strong> {{ a.where }}</p>{% endif %}
-    <p class="who"><strong>At CoDS:</strong> {{ a.work }}</p>
+  <li>
+    <span class="name">{{ a.name }}</span>
+    <span>PhD {{ a.year }}{% if a.honour %}, {{ a.honour }}{% endif %}<span class="d">At CoDS: {{ a.work }}</span></span>
+    <span class="r">{{ a.where }}</span>
   </li>
 {%- endfor %}
 </ul>
 
-## Master's and undergraduate graduates
+## Master’s and undergraduate graduates
 
-<div class="table-wrap">
-<table>
-  <thead><tr><th scope="col">Name</th><th scope="col">Degree</th><th scope="col">Year</th><th scope="col">Now</th><th scope="col">At CoDS</th></tr></thead>
-  <tbody>
-  {%- for a in site.data.team.msc_alumni %}
-  <tr>
-    <th scope="row">{{ a.name }}</th>
-    <td data-label="Degree">{{ a.degree }}</td>
-    <td data-label="Year">{{ a.year }}</td>
-    <td data-label="Now">{{ a.where }}</td>
-    <td data-label="At CoDS">{{ a.work }}</td>
-  </tr>
-  {%- endfor %}
-  </tbody>
-</table>
-</div>
+<ul class="rows alumni">
+{%- for a in site.data.team.msc_alumni %}
+  <li>
+    <span class="name">{{ a.name }}</span>
+    <span>{{ a.degree }}{% if a.year != "" %} {{ a.year }}{% endif %}{% if a.work != "" %}<span class="d">At CoDS: {{ a.work }}</span>{% endif %}</span>
+    <span class="r">{{ a.where }}</span>
+  </li>
+{%- endfor %}
+</ul>
 
 ## Join the lab
 

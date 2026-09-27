@@ -2,9 +2,11 @@
 layout: default
 title: Research Projects
 permalink: /research/lusail/
+heading: "Managing Linked Data at Scale: Querying, Integrating, and Sharing"
 ---
+<div class="prose" markdown="1">
 
-# Managing Linked Data at Scale: Querying, Integrating, and Sharing
+
 
 This project aims to develop an efficient system and software tools to make it easy for users to share datasets with each other and integrate data available at geo-distributed engines. The RDF data model allows interlinking entities from different Web sources, where each dataset is independently maintained and accessed via a SPARQL endpoint. Subsequently various applications in life sciences, government open data, decentralized social networks, and Internet of Things, which need to query RDF graphs across geo-distributed and independent endpoints, have emerged. State-of-the-art federated RDF systems usually support a small number of data sources by utilizing schema information. They often cause unnecessary data retrieval and communications, leading to poor scalability and response time; these systems cannot support the need of these emerging applications to access tens to hundreds of geo-distributed RDF datasets.
 
@@ -16,7 +18,7 @@ We also addressed the data sharing problem in a short collaboration between QCRI
 
 
 
-## publications
+## Publications
 
 
 
@@ -31,3 +33,5 @@ We also addressed the data sharing problem in a short collaboration between QCRI
 - Andrei Vlad Sambra, Essam Mansour, Sandro Hawke, Maged Zereba, Nicola Greco, Abdur- rahman Ghanem, Dmitri Zagidulin, Ashraf Aboulnaga, Tim Berners-Lee: Solid: A Platform for Decentralized Social Applications Based on Linked Data. Technical Report. [PDF](/research/lusail/solid_protocols.pdf)
 
 - Essam Mansour, Andrei Vlad Sambra, Sandro Hawke, Maged Zereba, Sarven Capadisli, Abdurrahman Ghanem, Ashraf Aboulnaga, Tim Berners-Lee: [A Demonstration of the Solid Platform for Social Web Applications](http://dl.acm.org/citation.cfm?doid=2872518.2890529). WWW: 223-226, 2016. [PDF](/publications/paper/www16-solid-essam.pdf)
+
+</div>

@@ -1,8 +1,8 @@
 ---
 title: Earlier Publications (2005–2018)
 description: "Archive of Essam Mansour's earlier publications on distributed data systems, linked data, elastic OLTP and large-scale string analytics, with PDFs."
+heading: "Earlier publications (2005–2018)"
 ---
-# Earlier publications (2005–2018)
 
 Work from before the move to knowledge graphs and agentic AI: elastic OLTP, federated linked data, parallel sequence analytics and mobile data management. For recent work see the [selected publications](/publications/). The complete list is on [DBLP](https://dblp.org/pid/m/EssamMansour.html) and [Google Scholar](https://scholar.google.com/citations?user=dqgckDgAAAAJ).
 
@@ -10,14 +10,11 @@ Work from before the move to knowledge graphs and agentic AI: elastic OLTP, fede
 
 - Marco Serafini, Essam Mansour, Ashraf Aboulnaga. "A Method and System for Processing Data," US Patent application 14/910970, filed February 2016 (pending)
 
-
 ## Refereed Journal Papers
 
 - Rebecca Taft, Essam Mansour, Marco Serafini, Jennie Duggan, Aaron J. Elmore, Ashraf Aboulnaga, Andrew Pavlo, Michael Stonebraker: [E-Store: Fine-Grained Elastic Partitioning for Distributed Transaction Processing](http://dl.acm.org/citation.cfm?id=2735514&CFID=605881404&CFTOKEN=68506341). The Proceedings of the VLDB Endowment (PVLDB) 8(3), 2014. [PDF](/publications/paper/vldb15-estore-essam.pdf)
 
-
 - Marco Serafini, Essam Mansour, Ashraf Aboulnaga, Kenneth Salem, Taha Rafiq, Umar Farooq Minhas: [Accordion: Elastic Scalability for Database Systems Supporting Distributed Transactions](http://dl.acm.org/citation.cfm?id=2732979&CFID=605881404&CFTOKEN=68506341). The Proceedings of the VLDB Endowment (PVLDB) 7(12), 2014. [PDF](/publications/paper/vldb14-Accordion-essam.pdf)
-
 
 - Majed Sahli, Essam Mansour, Panos Kalnis: [ACME: A scalable parallel system for extracting frequent patterns from a very long sequence](http://dl.acm.org/citation.cfm?id=2691549&CFID=605881404&CFTOKEN=68506341). VLDB Journal 23(6), 2014. [PDF](/publications/paper/vldbj14-ACME-essam.pdf)
 
@@ -26,7 +23,6 @@ Work from before the move to knowledge graphs and agentic AI: elastic OLTP, fede
 - Essam Mansour, Amin Allam, Spiros Skiadopoulos, and Panos Kalnis. [ERA: Efficient Serial and Parallel Suffix Tree Construction for Very Long Strings](http://dl.acm.org/citation.cfm?id=2047490&CFID=605881404&CFTOKEN=68506341). In the volume 5 of Proceedings of the VLDB Endowment (PVLDB), 2011. [PDF](/publications/paper/vldb12-ERA-essam.pdf)
 
 - Hagen Höpfner, Essam Mansour, Daniela Nicklas: [Review of Data Management Mechanisms on Mobile Devices](/publications/paper/itit.2009.0526.pdf). it - Information Technology 51(2): 79-84 (2009)
-
 
 ## Refereed Conference Papers
 
@@ -42,17 +38,13 @@ Work from before the move to knowledge graphs and agentic AI: elastic OLTP, fede
 
 - Christian Bunse, Hagen Höpfner, Essam Mansour, and Suman Roychoudhury. [Exploring the Energy Consumption of Data Sorting Algorithms in Embedded and Mobile Environments](/publications/paper/rosocm09_energy.pdf). In Proceedings of the 10th International Conference on Mobile Data Management: Systems, Services and Middleware [(MDM)](http://dx.doi.org/10.1109/MDM.2009.103), 2009.
 
-
 - Hagen Höpfner, Jörg Schad, Sebastian Wendland, Essam Mansour. [MyMIDP and MyMIDP-Client: Direct Access to MySQL Databases from Cell Phones](/publications/paper/btw09-midp.pdf). BTW 2009
 
 - Essam Mansour, Hagen Höpfner. [Replay the Execution History of Rule-Based Information](/publications/paper/dbkda09-replay.pdf). DBKDA 2009.
 
-
 - Hagen Höpfner, Jörg Schad, Sebastian Wendland, Essam Mansour. [MyMIDP: An JDBC Driver for Accessing MySQL from Mobile Devices](/publications/paper/dbkda09-mymidp.pdf). DBKDA 2009.
 
-
 - Essam Mansour, Hagen Höpfner. [A Rule-based Approach and Framework for Managing Best Practices - An XML-based Management using Pure Database System Utilities](/publications/paper/iceis09-sim.pdf). ICEIS 2009.
-
 
 - Christian Bunse, Hagen Höpfner, Suman Roychoudhury, Essam Mansour. [Choosing the "Best" Sorting Algorithm for Optimal Energy Consumption](/publications/paper/icsoft09-energy.pdf). ICSOFT 2009.
 
@@ -60,25 +52,19 @@ Work from before the move to knowledge graphs and agentic AI: elastic OLTP, fede
 
 - Hagen Höpfner, Sebastian Wendland, Essam Mansour. [Data Caching on Mobile Devices - The Experimental MyMIDP Caching Framework](/publications/paper/icsoft09-cach.pdf). ICSOFT 2009.
 
-
 - Bing Wu, Kudakwashe Dube, Essam Mansour. [The Motion Picture Paradigm for Managing Information - A Framework and Approach to Supporting the Play and Replay of Information in Computerised Information Systems](/publications/paper/ICEIS2008-paper684.pdf). ICEIS 2008.
-
 
 - Essam Mansour, Kudakwashe Dube, Bing Wu. [Managing complex information in reactive applications using an active temporal XML database approach](/publications/paper/ICEIS07-EMansour.pdf). ICEIS 2007.
 
 - Bing Wu, Essam Mansour, Kudakwashe Dube. [Complex Information Management Using a Framework Supported by ECA Rules in XML](/publications/paper/RuleML2007_bw.pdf). RuleML 2007.
 
-
 - Essam Mansour, Kudakwashe Dube, Bing Wu. [AIM: An XML-Based ECA Rule Language for Supporting a Framework for Managing Complex Information](/publications/paper/RuleML2007_em.pdf). RuleML 2007.
 
-
 - Essam Mansour, Bing Wu, Kudakwashe Dube, Jian Xing Li. [An Event-Driven Approach to Computerizing Clinical Guidelines Using XML](/publications/paper/EDA-PS2006_EMansour.pdf). SCW 2006.
-
 
 - Kudakwashe Dube, Essam Mansour, Bing Wu. [Supporting Collaboration and Information Sharing in Computer-Based Clinical Guideline Management](/publications/paper/CBMS2005_EMansour.pdf). CBMS 2005.
 
 - Mohammed Al-Kateb, Essam Mansour, Mohamed E. El-Sharkawi. [CME: A Temporal Relational Model for Efficient Coalescing](/publications/paper/TIME2005_EMansour.pdf). TIME 2005.
-
 
 ## System Demonstrations and Posters
 
@@ -94,18 +80,9 @@ Work from before the move to knowledge graphs and agentic AI: elastic OLTP, fede
 
 ## Technical Reports 
 
-
 - Ibrahim Abdelaziz, Essam Mansour, Mourad Ouzzani, Ashraf Aboulnaga, Panos Kalnis. [Query Optimizations over Decentralized RDF Graphs](/publications/paper/LusailTReport.pdf). Technical Report, 2017.
 
 - Majed Sahli, Essam Mansour, Panos Kalnis: [A Query Language for Large String Processing](/publications/paper/StarQL-TR-201744.pdf). Technical Report, 2017.
 
-
 - Andrei Vlad Sambra, Essam Mansour, Sandro Hawke, Maged Zereba, Nicola Greco, Abdur- rahman Ghanem, Dmitri Zagidulin, Ashraf Aboulnaga, Tim Berners-Lee. [Solid: A Platform for Decentralized Social Applications Based on Linked Data](/publications/paper/solid_protocols.pdf). Technical Report, 2017.
-
-
-
-
-
-
-
 

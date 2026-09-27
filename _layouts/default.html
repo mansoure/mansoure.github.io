@@ -36,7 +36,8 @@
   <link rel="icon" href="/favicon.png" type="image/png">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="/css/site.css?v=2026-09">
+  <link rel="stylesheet" href="/css/site.css?v=2026-09b">
+  <link rel="preload" href="/css/fonts/source-serif-4-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
   <script>document.documentElement.className += ' js';</script>
   {%- if page.home %}
   <script type="application/ld+json">
@@ -61,30 +62,42 @@
 </head>
 <body{% if page.home %} class="home"{% endif %}>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="wrap bar">
-      <a class="brand" href="/">Essam Mansour</a>
-      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-      <nav id="site-nav" class="site-nav" aria-label="Main">
-        {%- assign nav = "research|Research,systems|Systems,publications|Publications,team|Team,service|Service,news|News,cv|CV,contact|Contact" | split: "," -%}
-        {%- for item in nav %}
-          {%- assign parts = item | split: "|" %}
-          <a href="/{{ parts[0] }}/"{% if page.url contains parts[0] %} aria-current="page"{% endif %}>{{ parts[1] }}</a>
-        {%- endfor %}
-      </nav>
+  {%- assign heading = page.heading -%}
+  {%- if page.layout == 'post' %}{% assign heading = page.title %}{% endif %}
+  <div class="band">
+    <div class="wrap">
+      <header class="site-header bar">
+        <a class="brand" href="/">Essam Mansour</a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Main">
+          {%- assign nav = "research|Research,systems|Systems,publications|Publications,team|Team,service|Service,news|News,cv|CV,contact|Contact" | split: "," -%}
+          {%- for item in nav %}
+            {%- assign parts = item | split: "|" %}
+            {%- assign prefix = "/" | append: parts[0] | append: "/" %}
+            <a href="{{ prefix }}"{% if page.url contains prefix %} aria-current="page"{% endif %}>{{ parts[1] }}</a>
+          {%- endfor %}
+        </nav>
+      </header>
+      {%- if page.home %}
+      {% include hero.html %}
+      {%- elsif heading %}
+      <div class="page-head">
+        <h1>{{ heading }}</h1>
+        {%- if page.layout == 'post' %}<p class="meta">{{ page.date | date: "%B %-d, %Y" }}</p>{% endif %}
+        {%- if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+      </div>
+      {%- endif %}
     </div>
-  </header>
+  </div>
 
-  <main id="main"{% unless page.home %} class="wrap"{% endunless %}>
+  <main id="main" class="wrap">
     {{ content }}
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>
-        <strong>Essam Mansour</strong> · Tenured Associate Professor, Department of Computer Science and Software Engineering,
-        <a href="https://www.concordia.ca/">Concordia University</a> · Head of the <a href="https://cods-gcs.github.io">CoDS Lab</a>
-      </p>
+  <footer class="site-footer wrap">
+    <div class="inner">
+      <p>Essam Mansour · Tenured Associate Professor, Department of Computer Science and Software Engineering,
+        <a href="https://www.concordia.ca/">Concordia University</a>, Montreal · Head of the <a href="https://cods-gcs.github.io">CoDS Lab</a></p>
       <p class="links">
         <a href="/cv/mansour-cv.pdf">CV (PDF)</a>
         <a href="https://scholar.google.com/citations?user=dqgckDgAAAAJ">Google Scholar</a>
@@ -92,7 +105,7 @@
         <a href="https://github.com/CoDS-GCS">GitHub</a>
         <a href="https://www.linkedin.com/in/emansour">LinkedIn</a>
       </p>
-      <p class="fine">Last updated {{ site.time | date: "%B %Y" }}.</p>
+      <p>Last updated {{ site.time | date: "%B %Y" }}.</p>
     </div>
   </footer>
   <script>

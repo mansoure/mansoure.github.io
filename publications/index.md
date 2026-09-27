@@ -1,12 +1,12 @@
 ---
 title: Publications
 description: "Selected publications by Essam Mansour, grouped by theme: agentic AI, memory and safety; LLM and knowledge graph systems; data systems foundations. Papers at SIGMOD, VLDB, ICDE, EMNLP, EACL and CCS."
+heading: "Publications"
+lede: "More than 50 papers in top-tier venues. Students supervised by or working closely with me are marked with an asterisk (*)."
 ---
-# Publications
 
-<p class="lede">More than 50 papers in top-tier venues. The complete list is on <a href="https://dblp.org/pid/m/EssamMansour.html">DBLP</a> and <a href="https://scholar.google.com/citations?user=dqgckDgAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>. Students supervised by or working closely with me are marked with an asterisk (*).</p>
 
-<p class="small muted">Jump to:
+<p class="jump">The complete list is on <a href="https://dblp.org/pid/m/EssamMansour.html">DBLP</a> and <a href="https://scholar.google.com/citations?user=dqgckDgAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>.<br>Jump to:
 {%- for g in site.data.publications %} <a href="#{{ g.slug }}">{{ g.group }}</a>{% unless forloop.last %} ·{% endunless %}{% endfor %} · <a href="/publications/archive/">Earlier publications (2005–2018)</a></p>
 
 {% for g in site.data.publications %}
