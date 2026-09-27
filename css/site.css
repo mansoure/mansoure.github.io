@@ -57,6 +57,7 @@ strong, b { font-weight: 600; }
 blockquote { margin: 1rem 0; padding: 0 0 0 1rem; border-left: 1px solid var(--rule); color: var(--sub); }
 code { font-size: .88em; background: #f3f4f7; padding: .05rem .3rem; border-radius: 3px; }
 address { font-style: normal; }
+abbr[title] { text-decoration: none; }
 
 #main { padding-top: 2.75rem; }
 .home #main { padding-top: 0; }
