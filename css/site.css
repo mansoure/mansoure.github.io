@@ -78,7 +78,7 @@ main > h2:first-child { margin-top: 0; }
 .page-head .meta { margin: .6rem 0 0; color: var(--sub); font-size: 1rem; }
 
 /* home hero: text left, portrait vertically centred on the right, fading into the band */
-.hero { display: flex; align-items: center; justify-content: space-between; gap: 3rem; padding: 1.75rem 0 1.9rem; }
+.hero { display: flex; align-items: center; justify-content: space-between; gap: 3rem; padding: 1.75rem 0 1.2rem; }
 .hero-text { max-width: 38rem; }
 .hero h1 { font-size: 2.6rem; margin: 0 0 .4rem; }
 .hero .affil { margin: 0; color: var(--sub); font-size: 1.05rem; line-height: 1.5; }
@@ -157,7 +157,7 @@ main > h2:first-child { margin-top: 0; }
   h1 { font-size: 2.2rem; }
   .page-head { padding: 1.4rem 0 1.4rem; }
   #main { padding-top: 2rem; }
-  .hero { flex-direction: column-reverse; align-items: flex-start; gap: 1rem; padding: 1.25rem 0 1.5rem; }
+  .hero { flex-direction: column-reverse; align-items: flex-start; gap: 1rem; padding: 1.25rem 0 1.1rem; }
   .hero h1 { font-size: 2.2rem; }
   .hero .statement { font-size: 1.15rem; }
   .hero-photo { width: 7.5rem; }
