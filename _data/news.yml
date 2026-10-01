@@ -1,6 +1,13 @@
 # Newest first. One entry per accepted paper, invited talk, student milestone and grant,
 # added the week it happens. precision: day | month | year controls how the date is shown.
+# home: false keeps an item off the home page (Recently and News) but on the News page.
 # Dates below come from the CV and arXiv identifiers; refine day/month where marked TODO.
+
+- date: 2026-10-04
+  precision: month
+  title: "Dagstuhl Seminar 26411: Large Language Models Meet Knowledge Graphs"
+  body: "Invited participant in the Dagstuhl Seminar on LLMs and knowledge graphs (Schloss Dagstuhl, Germany, October 4–9, 2026), which sets a research roadmap for LLM-enhanced knowledge graphs, KG-enhanced LLMs and neuro-symbolic applications."
+  link: https://www.dagstuhl.de/26411
 
 - date: 2026-09-19
   precision: month
@@ -18,6 +25,7 @@
 - date: 2026-09-01
   precision: month
   title: "Three PhD students and one MSc student join CoDS"
+  home: false   # shown on the News page only
   body: "Yomna Gharib, Loubna Guelmani and Qizhi Wang (PhD) and Farbod Aminnezhad (MSc) start in September 2026, working on agent security, governed memory, validation of agent-generated code, and action contracts."
   link: /team/
 

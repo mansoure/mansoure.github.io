@@ -7,7 +7,8 @@ description: "Essam Mansour, Tenured Associate Professor at Concordia University
 
 <ul class="recently" aria-label="Recently">
   <li class="label">Recently</li>
-{%- for n in site.data.news limit:3 %}
+{%- assign home_news = site.data.news | where_exp: "n", "n.home != false" %}
+{%- for n in home_news limit:3 %}
   <li><a href="{{ n.link | default: '/news/' }}">{{ n.title }}</a></li>
 {%- endfor %}
 </ul>
@@ -32,7 +33,7 @@ description: "Essam Mansour, Tenured Associate Professor at Concordia University
 
 <h2>News</h2>
 <ul class="rows">
-{%- for n in site.data.news offset:3 limit:4 %}
+{%- for n in home_news offset:3 limit:4 %}
   <li><time class="k" datetime="{{ n.date | date: '%Y-%m-%d' }}">{% if n.precision == 'year' %}{{ n.date | date: '%Y' }}{% else %}{{ n.date | date: '%B %Y' }}{% endif %}</time><span>{% if n.link %}<a href="{{ n.link }}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}</span></li>
 {%- endfor %}
 </ul>

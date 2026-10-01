@@ -7,11 +7,12 @@ heading: "Service and leadership"
 ## Leadership
 
 <dl class="kv">
-  <dt>2026</dt><dd><strong>General Chair, IEEE ICDE 2026</strong> (Montreal, May 2026), the flagship data engineering conference, with Fei Chiang.</dd>
-  <dt>2027</dt><dd><strong>Demonstration Chair, VLDB 2027.</strong></dd>
   <dt>Ongoing</dt><dd><strong>Editor, ACM SIGMOD Blog.</strong></dd>
-  <dt>April 2026</dt><dd><strong>Dagstuhl Seminar 26161</strong>, “Managing Vector Data for RAG”. Invited participant and technical lead; led the <em>Agentic Systems</em> cross-topic session and delivered a Gong Show talk.</dd>
+  <dt>2027</dt><dd><strong>Demonstration Chair, VLDB 2027.</strong></dd>
+  <dt>October 2026</dt><dd><strong>Dagstuhl Seminar 26411</strong>, “<a href="https://www.dagstuhl.de/26411">Large Language Models Meet Knowledge Graphs</a>” (Schloss Dagstuhl, October 4–9, 2026). Invited participant.</dd>
+  <dt>May 2026</dt><dd><strong>General Chair, IEEE ICDE 2026</strong> (Montreal), the flagship data engineering conference, with Fei Chiang.</dd>
   <dt>May 2026</dt><dd><strong>ICDE 2026 panel</strong>, “What can agents do for databases?”, with Fatma Özcan (moderator), Wenjie Zhang, Aditya Parameswaran and Bolin Ding.</dd>
+  <dt>April 2026</dt><dd><strong>Dagstuhl Seminar 26161</strong>, “Managing Vector Data for RAG”. Invited participant and technical lead; led the <em>Agentic Systems</em> cross-topic session and delivered a Gong Show talk.</dd>
   <dt>2022 to 2024</dt><dd><strong>General Co-Chair</strong>, International Workshop on Data Systems Meet Data Science (DSDS).</dd>
 </dl>
 
@@ -38,7 +39,7 @@ Distinguished Reviewer Awards: SIGMOD 2025 and PVLDB 2018.
 
 ## Selected invited talks
 
-- “Architecture Over Model: Agentic Systems for Data-Intensive Domains.” Agentic Systems cross-topic session, Dagstuhl Seminar 26161, Germany, April 2026.
 - “What Agents Can Do for Databases.” Position panel, ICDE 2026, Montreal, May 2026.
+- “Architecture Over Model: Agentic Systems for Data-Intensive Domains.” Agentic Systems cross-topic session, Dagstuhl Seminar 26161, Germany, April 2026.
 - “Advancing Domain-Specific Intelligence with LLMs and KGs: A Five-Year Journey.” DBML Workshop at ICDE 2025, Hong Kong, May 2025.
 - “ChatGPT versus Traditional Question Answering for KGs.” Apple Knowledge Platform team, March 2023. Related seminars at Simon Fraser University (2023) and the University of Waterloo Data Systems Group (2022).
