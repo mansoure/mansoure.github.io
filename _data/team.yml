@@ -18,6 +18,9 @@ phd:
 msc:
   - { name: Farbod Aminnezhad, role: MSc, topic: "Action contracts", until: "2026 to 2028", work: "" }
 
+undergrad:
+  - { name: Ana Rostam, role: Undergraduate, topic: "Agentic workflow automation", until: "", work: "MAFBench" }
+
 # Graduated. `where` = current position per the CV. Leave blank rather than guess.
 phd_alumni:
   - name: Hussein Abdallah

@@ -2,14 +2,14 @@
 title: Team
 description: "Current members of the CoDS Lab at Concordia University, and graduated students with their current positions at Mila–McGill, Verily, the University of Waterloo, IBM, National Bank of Canada, Desjardins and Snowflake."
 heading: "Team"
-lede: "The Concordia Data Systems (CoDS) Lab: one postdoctoral researcher, five PhD students and one MSc student, each attached to a thrust of the research program."
+lede: "The Concordia Data Systems (CoDS) Lab: one postdoctoral researcher, five PhD students, one MSc student and one undergraduate researcher."
 ---
 
 {%- comment %} Topic strings may end in "(co-supervised with X)"; that part is shown on its own line. {% endcomment %}
 
 ## Current members
 
-{% assign groups = "postdoc|Postdoctoral researcher,phd|PhD students,msc|Master’s student" | split: "," %}
+{% assign groups = "postdoc|Postdoctoral researcher,phd|PhD students,msc|Master’s student,undergrad|Undergraduate researcher" | split: "," %}
 {%- for g in groups %}
 {%- assign gp = g | split: "|" %}
 <h3>{{ gp[1] }}</h3>
@@ -17,7 +17,8 @@ lede: "The Concordia Data Systems (CoDS) Lab: one postdoctoral researcher, five 
 {%- case gp[0] %}
 {%- when "postdoc" %}{% assign members = site.data.team.postdoc %}
 {%- when "phd" %}{% assign members = site.data.team.phd %}
-{%- else %}{% assign members = site.data.team.msc %}
+{%- when "msc" %}{% assign members = site.data.team.msc %}
+{%- else %}{% assign members = site.data.team.undergrad %}
 {%- endcase %}
 {%- for m in members %}
   {%- assign tp = m.topic | split: " (co-supervised with " %}
