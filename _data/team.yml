@@ -13,7 +13,7 @@ phd:
   - { name: Waleed Afandi, role: PhD, topic: "Graph foundation models for agents (co-supervised with Ashraf Aboulnaga)", until: "to 2027", work: "KG-WISE, KGNet" }
   - { name: Yomna Gharib, role: PhD, topic: "Agentic security (co-supervised with Amr Youssef)", until: "2026 to 2030", work: "" }
   - { name: Loubna Guelmani, role: PhD, topic: "Agent harness and long-term memory", until: "2026 to 2030", work: "" }
-  - { name: Qizhi Wang, role: PhD, topic: "Sustainable and trustworthy agentic specialization of database engines", until: "2026 to 2030", work: "" }
+  - { name: Qizhi Wang, role: PhD, topic: "Sustainable and trustworthy agentic specialization of database engines and enterprise data workflows", until: "2026 to 2030", work: "" }
 
 msc:
   - { name: Farbod Aminnezhad, role: MSc, topic: "Action contracts", until: "2026 to 2028", work: "" }
@@ -24,7 +24,7 @@ phd_alumni:
     year: "2025"
     honour: "thesis graded Outstanding"
     where: "Postdoctoral Fellow, Mila–McGill"
-    work: "KGNet (ICDE 2024), KG-WISE (ICDE 2026), LLM–GNN open-world QA (EACL 2026)"
+    work: "KGTOSA (ICDE 2024), KGNet, KG-WISE (ICDE 2026), LLM–GNN open-world QA (EACL 2026)"
   - name: Mossad Helali
     year: "2025"
     honour: "thesis graded Excellent"
