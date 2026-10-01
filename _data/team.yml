@@ -45,10 +45,10 @@ phd_alumni:
     work: "KGQAn (SIGMOD 2023), Chatty-Gen (SIGMOD 2025), Chatty-KG (SIGMOD 2026)"
 
 msc_alumni:
-  - { name: Omijkumar Mangukiya, degree: MSc, year: "", where: "IBM Canada", work: "Chatty-Gen, Chatty-KG" }          # TODO: graduation year
-  - { name: Niki Monjazeb, degree: MSc, year: "", where: "Desjardins", work: "KGLiDS" }                                # TODO: graduation year
+  - { name: Omijkumar Mangukiya, degree: MSc, year: "", where: "Software Engineer, AI/Data, IBM Canada Software Lab, Toronto", work: "Chatty-Gen, Chatty-KG" }          # TODO: graduation year
+  - { name: Niki Monjazeb, degree: MSc, year: "", where: "Data Scientist, Desjardins", work: "KGLiDS" }                                # TODO: graduation year
   - { name: Shubham Vashisth, degree: MSc, year: "2023", where: "PhD student, McGill", work: "KGLiDS" }
-  - { name: Ishika Dhall, degree: MSc, year: "2023", where: "National Bank of Canada", work: "KGQAn" }
-  - { name: Ahmed Helal, degree: MSc, year: "2021", where: "Snowflake", work: "KGLiDS, KGLac demo (VLDB 2021)" }
+  - { name: Ishika Dhall, degree: MSc, year: "2023", where: "Senior AI Scientist, National Bank of Canada", work: "KGQAn" }
+  - { name: Ahmed Helal, degree: MSc, year: "2021", where: "Software Engineer, Snowflake", work: "KGLiDS, KGLac demo (VLDB 2021)" }
   - { name: Philippe Carrier, degree: Undergraduate, year: "2023", where: "Software Engineer, Amazon", work: "KGLiDS" }
   - { name: Yasaman Sabbagh, degree: Undergraduate, year: "2022", where: "PhD student, McGill", work: "" }
