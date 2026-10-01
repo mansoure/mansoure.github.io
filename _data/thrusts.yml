@@ -25,7 +25,7 @@
   text: "Agent memory is an attack surface. We study multi-agent attack surfaces, memory poisoning and prompt injection under enterprise deployment, building on our work on advanced persistent threat hunting with graph learning and LLMs."
   short: "Multi-agent attack surfaces, memory poisoning and prompt injection. Builds on OCR-APT and MEGR-APT."
   people:
-    - { name: "Yomna Gharib", role: "PhD" }
+    - { name: "Yomna Gharib", role: "PhD, co-supervised with Amr Youssef" }
     - { name: "Ahmed Aly", role: "PhD, co-supervised with Amr Youssef" }
   systems: "OCR-APT, MEGR-APT"
 - id: gfm
