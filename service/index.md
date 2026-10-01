@@ -4,7 +4,7 @@ description: "Conference leadership, program committees, editorial roles, awards
 heading: "Service and leadership"
 ---
 
-## Leadership
+## Leadership and seminars
 
 <dl class="kv">
   <dt>Ongoing</dt><dd><strong>Editor, ACM SIGMOD Blog.</strong></dd>
