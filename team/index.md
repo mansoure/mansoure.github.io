@@ -14,7 +14,12 @@ lede: "The Concordia Data Systems (CoDS) Lab: one postdoctoral researcher, five 
 {%- assign gp = g | split: "|" %}
 <h3>{{ gp[1] }}</h3>
 <ul class="rows people">
-{%- for m in site.data.team[gp[0]] %}
+{%- case gp[0] %}
+{%- when "postdoc" %}{% assign members = site.data.team.postdoc %}
+{%- when "phd" %}{% assign members = site.data.team.phd %}
+{%- else %}{% assign members = site.data.team.msc %}
+{%- endcase %}
+{%- for m in members %}
   {%- assign tp = m.topic | split: " (co-supervised with " %}
   <li>
     <span class="name">{{ m.name }}</span>
