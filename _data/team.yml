@@ -27,7 +27,7 @@ phd_alumni:
     year: "2025"
     honour: "thesis graded Outstanding"
     where: "Postdoctoral Fellow, Mila–McGill"
-    work: "KGTOSA (ICDE 2024), KGNet, KG-WISE (ICDE 2026), LLM–GNN open-world QA (EACL 2026)"
+    work: "KGNet (ICDE 2023), KGTOSA (ICDE 2024), KG-WISE (ICDE 2026), LLM–GNN open-world QA (EACL 2026)"
   - name: Mossad Helali
     year: "2025"
     honour: "thesis graded Excellent"
